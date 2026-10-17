@@ -1,23 +1,18 @@
-# ShiftToken: план компонентів
+# Компоненти ShiftToken і первинні джерела
 
-- MFRC522 / SPI
-- кнопки / GPIO
-- потенціометр / ADC: вибір коду роботи
+Проєкт — навчальний стенд на Nucleo-C031C6. Вхідні пристрої: MFRC522/SPI, кнопки/GPIO, потенціометр/ADC. microSD додає справжнє сховище для наступного етапу. Реального стенда немає; електричний бюджет є розрахунком, а не вимірюванням.
 
-Наведено заплановані входи; вони ще не додані до `diagram.json`, `.ioc` або прошивки. Початкова плата — STM32C031C6, HAL STM32C0. Базова схема має UART на PA2/PA3; остаточний pinout GPIO/SPI/ADC треба перевірити перед змінами.
+| Пристрій | Джерело, сторінка/розділ | Обране рішення |
+|---|---|---|
+| STM32C031C6, Cortex-M0+, 48 МГц, 32 КБ flash, 12 КБ RAM | [ST DS13867 rev4](https://www.st.com/resource/en/datasheet/stm32c031c6.pdf), с.1, 31–38, табл.12–20; [RM0490](https://www.st.com/resource/en/reference_manual/rm0490-stm32c0-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf), розділи GPIO/SPI/ADC/USART | USART2 PA2/PA3 AF1; SPI1 PB3/PB4/PB5 AF0, щоб не забирати LED PA5; PA0 ADC_IN0. DWT CYCCNT не передбачено для цього ядра. |
+| Nucleo-C031C6 | [ST UM2953](https://www.st.com/resource/en/user_manual/um2953-stm32c0-nucleo64-board-mb1717-stmicroelectronics.pdf), §6 Power supply, §7 connectors; [модель плати](https://docs.wokwi.com/parts/board-st-nucleo-c031c6) | Спільна земля; LED PA5; PA13/14 залишено SWD; PA2/3 VCP; не переносити pinout F4. Для реального SD потрібна окрема перевірка пікового струму та просідання 3V3. |
+| MFRC522, NXP rev3.9 | [Datasheet](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf), §8.1.2 SPI, рис.8–10 і табл.6–8; §9 регістри; §10 команди; §15 електричні параметри | 3,3 В, SPI mode0, MSB first; SCK ≤10 МГц, у стенді 375 кГц. SDA модуля — CS#, не I²C SDA. RST active-low; VersionReg 0x37 має 0x91/0x92. FIFOData 0x09, FIFOLevel 0x0A, Command 0x01, ComIrq 0x04, Error 0x06, BitFraming 0x0D. Результат UID не має фізичних одиниць. |
+| MFRC522, RF процедура | Той самий datasheet, §8.5 timer, §10.3 Transceive, §16 application | REQA 7 біт → ATQA, anticollision каскадів → UID+BCC, SELECT → SAK з CRC_A. Обмежений timeout, BCC/CRC та довжини перевіряються. Інтегральне споживання чіпа в режимах наведене §15; повний модуль із антеною треба виміряти окремо. Для резервування виділено 100 мА, це проєктна межа, не паспортний струм модуля. |
+| Потенціометр 10 кОм, аналог Bourns PTV09 | [Bourns PTV09](https://www.bourns.com/docs/Product-Datasheets/ptv09.pdf), с.1 Electrical Characteristics, с.2 terminal diagram; [Wokwi](https://docs.wokwi.com/parts/wokwi-potentiometer) | Лінійна характеристика; кінці до 3V3/GND, SIG до PA0. При 10 кОм струм 0,33 мА; з допуском −20% до 0,413 мА. Напруга 0–3,3 В, ADC 0–4095; mV номінальні. Номінал Wokwi не моделює реальний опір/похибку. |
+| Кнопки, аналог Omron B3F | [B3F](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf), с.1 ratings, с.2 characteristics; [Wokwi](https://docs.wokwi.com/parts/wokwi-pushbutton) | Пасивні контакти, active-low до GND, pull-up МК; паспортне bounce ≤5 мс, проєктний debounce 25 мс. Струм визначає pull-up: резерв 0,2 мА на контакт. Виводи однієї сторони вже з’єднані — підключати протилежні сторони. |
+| microSD, SPI block device | [SD Association, Physical Layer Simplified Specification](https://www.sdcard.org/downloads/pls/), розділи SPI mode initialization, CMD0/8/17/24/55/ACMD41/58; [Wokwi microSD](https://docs.wokwi.com/parts/wokwi-microsd-card) | Окремий CS PA4, спільні PB3/4/5; 3,3 В, початкова частота 375 кГц. CMD24 + data token 0xFE + 512 B + CRC, перевірка response та busy; CMD17 read-back. Для 8 MiB SDSC адреса у байтах; SDHC — блокова. Окремий сирий образ, без FAT. Час/струм конкретної картки не виводиться з Wokwi; резерв 200 мА і зовнішнє 3V3 джерело ≥500 мА для апаратного стенда. |
 
-Для кожного компонента в ЛР1 потрібно знайти офіційний datasheet / register map і додати конкретні сторінки: живлення, рівні сигналів, протокол, адреса/ідентифікація, перетворення одиниць, частота та час вимірювання, помилки. Наявність моделі Wokwi не замінює datasheet. GPIO-рівні зовнішніх 5-V моделей не є доказом електричної сумісності фізичного стенда.
+## Бюджет та невизначеність
+Резерв зовнішніх навантажень: RFID 100 мА + SD 200 мА + потенціометр ≤0,413 мА + дві кнопки ≤0,4 мА = 300,813 мА. Бюджетне джерело 500 мА залишає приблизно 199 мА для зовнішніх модулів; MCU/LED і ST-Link живляться від Nucleo USB, землі спільні, зовнішню 3V3 не з’єднувати напряму з виходом регулятора плати. Це обережно обрані резерви; виміряти реальні піки SD/антени, рівні MISO та час фронтів перед фізичною збіркою. Не заявляється, що Nucleo гарантовано живить усі модулі від свого 3V3.
 
-Переглянуті джерела моделювання:
-
-- [MFRC522: модель RFID-зчитувача та SPI](https://docs.wokwi.com/parts/board-mfrc522)
-- [Nucleo-C031C6](https://docs.wokwi.com/parts/board-st-nucleo-c031c6)
-- [Кнопка](https://docs.wokwi.com/parts/wokwi-pushbutton), [потенціометр](https://docs.wokwi.com/parts/wokwi-potentiometer)
-
-SPI-драйвер, pinout і робота з MFRC522 на цьому C031 ще не перевірені. Приклад Arduino з документації не є готовим STM32 HAL-драйвером. Початкова I²C-конфігурація шаблону не означає наявності RFID-зчитування.
-
-## Межі
-
-UID не є безпечним підтвердженням особи; не система контролю доступу або зарплатного обліку.
-
-Порівняти альтернативи до вибору pinout: цифровий та аналоговий вимір, окремий контакт замість непрямої ознаки, UART-генератор замість фізичного входу. У PRD вказати роль кожного реально обраного компонента, а не додавати пристрій лише заради кількості.
+Версія бібліотек: ST HAL/CMSIS успадковані від дозволеного SP-Boilerplate; базовий firmware.ioc позначає STM32Cube FW_C0 V1.0.1. Точні вендорські файли збережено в Git, ліцензії — поруч. Драйвери прикладних пристроїв пишуться окремо; Arduino API не використовується.
