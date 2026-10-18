@@ -1,0 +1,9 @@
+arm-none-eabi-gcc (15:13.2.rel1-2) 13.2.1 20231009
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+binutils-arm-none-eabi	2.42-1ubuntu1+23
+gcc-arm-none-eabi	15:13.2.rel1-2
+libnewlib-arm-none-eabi	4.4.0.20231231-2
+make	4.3-4.1build2

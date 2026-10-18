@@ -1,0 +1,15 @@
+{
+  "level": "Wokwi simulated GPIO",
+  "analyzed_utc": "2026-11-06T15:51:23.182957+00:00",
+  "last_signal_time_ms": 325404.12515,
+  "led_edges": 325,
+  "toggle_interval_ms": {
+    "n": 320,
+    "min": 1000.977625,
+    "avg": 1001.957254375,
+    "max": 1001.980625
+  },
+  "uart_boot_tick1_to4": "observed in uart-restart.txt",
+  "ELF_SHA256": "cf8b74a12fa808b00127844bbe7607421676d4e09508724c0c81cbfd6d2734af",
+  "exclusions": "Initial low/output initialization/startup transition and final stop-forced edge are excluded; interior periodic intervals only."
+}

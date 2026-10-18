@@ -107,7 +107,7 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  printf("STM32C031C6 ready\r\n");
+  printf("ShiftToken lab1 ready mcu=STM32C031C6 sysclk_hz=%lu uart=115200_8N1\r\n", (unsigned long)SystemCoreClock);
 
   /* USER CODE END 2 */
 
