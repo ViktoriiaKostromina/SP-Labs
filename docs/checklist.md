@@ -6,8 +6,8 @@
 |---|---|---|
 | ЛР1 | ≥8 FR, компоненти, альтернативи та числове приймання | PRD.md, hardware-components.md; проєктні критерії, не результати FR |
 | ЛР1 | Docker, Git, дві чисті ідентичні збірки | evidence/lab1/build1.log, build2.log, hash1.txt, hash2.txt; diff порожній |
-| ЛР1 | Фактичні UART tick1–3 і LED | Очікує Wokwi UART/VCD |
-| ЛР1 | ≥5 дійсних проблем, PDF, знімки, джерела | У роботі |
+| ЛР1 | Фактичні UART tick1–3 і LED | Верифіковано: evidence/lab1/uart-restart.txt, uart-led.vcd, results.json |
+| ЛР1 | ≥5 дійсних проблем, PDF, знімки, джерела | Верифіковано: report.md, reports/*.pdf, screenshots/lab1-*.png; CubeMX pinout/clock і CSV |
 | ЛР2 | Pinout, AF/роз’єми, конфлікти, живлення, 2 альтернативи | У роботі |
 | ЛР2 | Драйвери, одиниці, фільтри, self-test, одночасна робота | У роботі |
 | ЛР2 | Власні VCD SPI/UART/GPIO/ADC, декодування sigrok/PulseView, ручні байти, аномалія, таймінги | У роботі |
