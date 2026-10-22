@@ -51,20 +51,26 @@ static st_result transceive(st_rfid *r, const uint8_t *tx, size_t n,
     uint32_t start=r->io.now_ms(r->io.ctx); uint8_t irq=0;
     do {
         s=st_rfid_read_reg(r,0x04,&irq); if(s!=ST_OK)return s;
-        if(irq&0x30)break;
+        if(irq&0x20)break; /* RxIRq; IdleIRq alone is not received data. */
         if(irq&1)return ST_NO_CARD;
     } while ((uint32_t)(r->io.now_ms(r->io.ctx)-start)<25u);
-    if(!(irq&0x30))return ST_TIMEOUT;
+    if(!(irq&0x20))return ST_TIMEOUT;
     uint8_t error=0,level=0,lastbits=0;
     s=st_rfid_read_reg(r,0x06,&error);if(s!=ST_OK)return s;
-    if(error&0x1b)return ST_PROTOCOL;
+    if(error&0xdf)return ST_PROTOCOL;
     s=st_rfid_read_reg(r,0x0a,&level);if(s!=ST_OK)return s;
     s=st_rfid_read_reg(r,0x0c,&lastbits);if(s!=ST_OK)return s;
     if(level==0 || level>*got || (lastbits&7u))return ST_LENGTH;
     *got=level;
-    for(size_t i=0;i<level;++i) {
-        s=st_rfid_read_reg(r,0x09,&rx[i]);if(s!=ST_OK)return s;
-    }
+    /* FIFO burst: repeat the read address, terminate with zero, keep CS low.
+       This is the MFRC522 multi-byte read protocol, not independent reads. */
+    uint8_t fifo_tx[65],fifo_rx[65];
+    memset(fifo_tx,0x92,level);fifo_tx[level]=0;
+    r->io.select(r->io.ctx,true);
+    s=r->io.exchange(r->io.ctx,fifo_tx,fifo_rx,(size_t)level+1);
+    r->io.select(r->io.ctx,false);
+    if(s!=ST_OK)return s;
+    memcpy(rx,fifo_rx+1,level);
     return ST_OK;
 #undef WRITE
 }

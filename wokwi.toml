@@ -2,5 +2,10 @@
 version = 1
 firmware = 'firmware/build/firmware.hex'
 elf = 'firmware/build/firmware.elf'
-vcdFile = 'wokwi.vcd'
+vcdFile = 'sim/demo.vcd'
 rfc2217ServerPort = 4049
+
+[[sdcard]]
+image = 'sim/demo.img'
+size = '8M'
+writeback = true

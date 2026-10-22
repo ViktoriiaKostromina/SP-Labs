@@ -2,3 +2,7 @@
 firmware/build/
 wokwi.vcd
 *.swp
+
+build/
+sim/demo.img
+sim/demo.vcd

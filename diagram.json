@@ -11,13 +11,86 @@
       "attrs": {}
     },
     {
+      "type": "board-mfrc522",
+      "id": "rfid",
+      "top": 0,
+      "left": 370,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-microsd-card",
+      "id": "sd",
+      "top": 290,
+      "left": 370,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "job",
+      "top": 300,
+      "left": -140,
+      "attrs": {
+        "value": "512"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "pause",
+      "top": 500,
+      "left": 0,
+      "attrs": {
+        "color": "blue",
+        "label": "PAUSE"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "close",
+      "top": 500,
+      "left": 160,
+      "attrs": {
+        "color": "red",
+        "label": "CLOSE"
+      }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "rf_fault",
+      "top": 220,
+      "left": 390,
+      "attrs": {
+        "bounce": "0"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "title",
+      "top": -55,
+      "left": 0,
+      "attrs": {
+        "text": "ShiftToken — RFID / GPIO / ADC / SD bring-up"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "fault_label",
+      "top": 190,
+      "left": 370,
+      "attrs": {
+        "text": "RFID MISO disconnect"
+      }
+    },
+    {
       "type": "wokwi-logic-analyzer",
       "id": "logic",
-      "top": 0,
-      "left": 320,
+      "top": 20,
+      "left": 660,
       "attrs": {
-        "channelNames": "LED,UART_TX,D2,D3,D4,D5,D6,D7",
-        "bufferSize": "100000"
+        "channelNames": "SCK,MOSI,MISO,RFID_CS,SD_CS,UART_TX,ADC_SAMPLE,CAPTURE",
+        "bufferSize": "5000000",
+        "triggerMode": "level",
+        "triggerPin": "D7",
+        "triggerLevel": "high"
       }
     }
   ],
@@ -35,15 +108,177 @@
       []
     ],
     [
-      "logic:D0",
-      "nucleo:PA5",
+      "nucleo:3V3.1",
+      "rfid:3.3V",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "rfid:GND",
+      "black",
+      []
+    ],
+    [
+      "nucleo:3V3.1",
+      "sd:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "sd:GND",
+      "black",
+      []
+    ],
+    [
+      "nucleo:3V3.1",
+      "job:VCC",
+      "red",
+      []
+    ],
+    [
+      "nucleo:GND.1",
+      "job:GND",
+      "black",
+      []
+    ],
+    [
+      "nucleo:PB3",
+      "rfid:SCK",
+      "orange",
+      []
+    ],
+    [
+      "nucleo:PB5",
+      "rfid:MOSI",
+      "blue",
+      []
+    ],
+    [
+      "rfid:MISO",
+      "rf_fault:1",
+      "purple",
+      []
+    ],
+    [
+      "rf_fault:2",
+      "nucleo:PB4",
+      "purple",
+      []
+    ],
+    [
+      "nucleo:PB0.1",
+      "rfid:SDA",
       "green",
       []
     ],
     [
-      "logic:D1",
-      "nucleo:PA2",
+      "nucleo:PB1",
+      "rfid:RST",
+      "yellow",
+      []
+    ],
+    [
+      "nucleo:PB3",
+      "sd:SCK",
+      "orange",
+      []
+    ],
+    [
+      "nucleo:PB5",
+      "sd:DI",
       "blue",
+      []
+    ],
+    [
+      "nucleo:PB4",
+      "sd:DO",
+      "purple",
+      []
+    ],
+    [
+      "nucleo:PA4",
+      "sd:CS",
+      "green",
+      []
+    ],
+    [
+      "job:SIG",
+      "nucleo:PA0",
+      "cyan",
+      []
+    ],
+    [
+      "pause:1.l",
+      "nucleo:PA1",
+      "green",
+      []
+    ],
+    [
+      "pause:2.l",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "close:1.l",
+      "nucleo:PA6",
+      "green",
+      []
+    ],
+    [
+      "close:2.l",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PB3",
+      "gray",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PB5",
+      "gray",
+      []
+    ],
+    [
+      "logic:D2",
+      "nucleo:PB4",
+      "gray",
+      []
+    ],
+    [
+      "logic:D3",
+      "nucleo:PB0.1",
+      "gray",
+      []
+    ],
+    [
+      "logic:D4",
+      "nucleo:PA4",
+      "gray",
+      []
+    ],
+    [
+      "logic:D5",
+      "nucleo:PA2",
+      "gray",
+      []
+    ],
+    [
+      "logic:D6",
+      "nucleo:PA7",
+      "gray",
+      []
+    ],
+    [
+      "logic:D7",
+      "nucleo:PA8",
+      "gray",
       []
     ],
     [

@@ -22,7 +22,7 @@ TARGET = firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -Og
+OPT = -Os
 
 
 #######################################
@@ -50,14 +50,16 @@ Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c \
-Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c_ex.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c \
 Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart_ex.c \
 Core/Src/system_stm32c0xx.c  
+
+OWN_SOURCES = Core/Src/main.c $(wildcard App/*.c Board/*.c Devices/*.c Inputs/*.c)
+C_SOURCES += $(filter-out Core/Src/main.c,$(OWN_SOURCES)) \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc_ex.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_spi.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_spi_ex.c
 
 # ASM sources
 ASM_SOURCES =  \
@@ -114,7 +116,7 @@ AS_INCLUDES =
 
 # C includes
 C_INCLUDES =  \
--ICore/Inc \
+-ICore/Inc -IApp -IBoard -IDevices -IInputs \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32C0xx/Include \
@@ -144,10 +146,12 @@ LDSCRIPT = STM32C031C6Tx_FLASH.ld
 # libraries
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections,--print-memory-usage
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
+
+$(addprefix $(BUILD_DIR)/,$(notdir $(OWN_SOURCES:.c=.o))): CFLAGS += -Wextra -Werror -fstack-usage
 
 
 #######################################
