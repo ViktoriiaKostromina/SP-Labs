@@ -1,0 +1,12 @@
+name: ShiftToken ARM and portable tests
+on:
+  pull_request:
+  push:
+    branches: [lab1, lab2]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make build
+      - run: make test
