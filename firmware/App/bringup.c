@@ -87,6 +87,8 @@ static void command(void)
 void st_bringup_init(const st_platform *p)
 {
     hw=*p;reader.io=hw.reader;storage.io=hw.storage;
+    /* Capture boot/self-test and the first sample without a host race. */
+    hw.capture(true);capture_end=hw.now()+1000;
     hw.log("BOOT product=ShiftToken lab=2 format=1 clock_hz=48000000 uart=115200_8N1\r\n");
     selftest();uint32_t t=hw.now();adc_due=button_due=reader_due=t;summary_due=t+1000;retry_due=t+1000;
 }

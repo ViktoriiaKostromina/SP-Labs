@@ -17,6 +17,12 @@ static int rfid_tests(void)
  four_byte_card(&f);CHECK(st_rfid_poll(&r,&u)==ST_OK && u.length==4 && !memcmp(u.bytes,(uint8_t[]){1,2,3,4},4));
  CHECK(f.sent_n[0]==1 && f.sent[0][0]==0x52 && f.sent_n[2]==9 && f.sent[2][1]==0x70);
  CHECK(!memcmp(f.sent[3],(uint8_t[]){0x50,0,0x57,0xcd},4));
+ /* Actual saved VCD spi-rfid-startup-nfc: ATQA 44 00, FIFO 04 11 22 33 04,
+    SAK 00 FE 51. The simulated NFC tag advertises 7 bytes but returns 4.
+    This must be rejected instead of emitting the truncated UID. */
+ r=make_rf(&f);CHECK(st_rfid_init(&r)==ST_OK);
+ frame(&f,0,(uint8_t[]){0x44,0},2);frame(&f,1,(uint8_t[]){4,0x11,0x22,0x33,4},5);frame(&f,2,(uint8_t[]){0,0xfe,0x51},3);
+ CHECK(st_rfid_poll(&r,&u)==ST_PROTOCOL);
  r=make_rf(&f);CHECK(st_rfid_init(&r)==ST_OK);f.reg[0x37]=0;CHECK(st_rfid_poll(&r,&u)==ST_ID);
  r=make_rf(&f);f.reg[0x37]=0x88;CHECK(st_rfid_init(&r)==ST_ID && !r.ready);
  r=make_rf(&f);f.fail_at=1;CHECK(st_rfid_init(&r)==ST_BUS && !f.selected);

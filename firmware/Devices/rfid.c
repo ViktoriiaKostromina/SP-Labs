@@ -105,7 +105,12 @@ st_result st_rfid_poll(st_rfid *r, st_uid *uid)
             uint8_t halt[4]={0x50,0};crc=st_crc_a(halt,2);halt[2]=(uint8_t)crc;halt[3]=(uint8_t)(crc>>8);
             n=3;s=transceive(r,halt,4,0,sak,&n);
             /* HALT is specified to be silent. Other errors are not silently accepted. */
-            return (s==ST_NO_CARD || s==ST_TIMEOUT) ? ST_OK : (s==ST_OK ? ST_PROTOCOL:s);
+            if(s!=ST_NO_CARD && s!=ST_TIMEOUT)return s==ST_OK?ST_PROTOCOL:s;
+            /* ATQA bits 7:6 advertise single/double/triple-size UID.
+               Never accept a truncated identity from an inconsistent peer. */
+            uint8_t size_code=(uint8_t)((atqa[0]>>6)&3u);
+            return ((size_code==0 && uid->length==4) ||
+                    (size_code==1 && uid->length==7))?ST_OK:ST_PROTOCOL;
         }
     }
     return ST_LENGTH;
