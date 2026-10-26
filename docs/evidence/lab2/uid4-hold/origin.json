@@ -1,0 +1,19 @@
+{
+  "level": "Wokwi VS Code UART",
+  "started_utc": "2026-11-06T17:45:49.598605+00:00",
+  "ended_utc": "2026-11-06T17:47:39.710898+00:00",
+  "host_elapsed_s": 110.11216304099999,
+  "host_elapsed_is_not_MCU_elapsed": true,
+  "port": 4049,
+  "connections": 1,
+  "commands": [
+    "capture 10000",
+    "selftest",
+    "sdwrite 92"
+  ],
+  "commands_sent": true,
+  "startup_ready_observed": true,
+  "raw_sha256": "3a9bc2371f13b6d83940d529d88ff0ab09f229e84254f1f350511fb310e09a9f",
+  "firmware_elf_sha256": "aab91619a32af1f7d2ab57fbf3bce8bd20b9a81fbdc32ddfe24d82de0c6f4d17",
+  "connection_errors": []
+}

@@ -1,0 +1,8 @@
+{
+  "source": "docs/captures/lab2/spi-sd-write-adc.vcd",
+  "source_sha256": "5340b06da501b9432d88212877ed8802d346f5e99ecf53d7a8d5f2cd9b4af7d3",
+  "start_ns": 81530000000,
+  "end_ns": 81730000000,
+  "derived_vcd_sha256": "8f24ae4f3678fa49198504d3e1c7cfeaeacf059a81ae6a39e274a977b7cf6fb3",
+  "operation": "select time interval, insert actual initial pin states, subtract common time origin; no synthetic transitions"
+}

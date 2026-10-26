@@ -1,0 +1,49 @@
+{
+  "level": "Wokwi VS Code UART",
+  "started_utc": "2026-11-06T18:05:10.000020+00:00",
+  "ended_utc": "2026-11-06T18:07:10.112584+00:00",
+  "host_elapsed_s": 120.11064045799999,
+  "host_elapsed_is_not_MCU_elapsed": true,
+  "port": 4049,
+  "connections": 2,
+  "commands": [],
+  "commands_sent": false,
+  "startup_ready_observed": true,
+  "raw_sha256": "9a8e033fee44694761deaf9f80b6375b8f2b3bcf6dc7c610a22fa549db31740b",
+  "firmware_elf_sha256": "90c1e82b59daffc40ba134e9f759618dc771d099f606c829ec049e270156140e",
+  "connection_errors": [
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused",
+    "ConnectionRefusedError: [Errno 61] Connection refused"
+  ],
+  "files_before": {
+    "firmware/build/firmware.elf": "90c1e82b59daffc40ba134e9f759618dc771d099f606c829ec049e270156140e",
+    "firmware/build/firmware.hex": "9ee87f6e4b1e21b0153ac31092d9a7164aa3fa356ad6fc77aa6202db241187c0",
+    "diagram.json": "81ad249328c13be036a998a0a144acad72d4c021dd557d2e1c426a216939d651",
+    "wokwi.toml": "7ebe382ff67fb8a7565998e901191efa2538580bca7b90ec991bfe4ab5b721e1"
+  },
+  "files_after": {
+    "firmware/build/firmware.elf": "90c1e82b59daffc40ba134e9f759618dc771d099f606c829ec049e270156140e",
+    "firmware/build/firmware.hex": "9ee87f6e4b1e21b0153ac31092d9a7164aa3fa356ad6fc77aa6202db241187c0",
+    "diagram.json": "81ad249328c13be036a998a0a144acad72d4c021dd557d2e1c426a216939d651",
+    "wokwi.toml": "7ebe382ff67fb8a7565998e901191efa2538580bca7b90ec991bfe4ab5b721e1"
+  },
+  "loaded_binary_note": "File hashes alone do not establish what an existing simulator loaded; use BOOT and fresh native start evidence."
+}

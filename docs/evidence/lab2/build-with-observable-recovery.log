@@ -1,0 +1,116 @@
+docker build -t shifttoken-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 468B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 0.0s done
+#4 DONE 0.0s
+
+#5 [2/4] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     gcc python3 gcovr     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/4] RUN apt-get update && apt-get install -y --no-install-recommends libc6-dev     && rm -rf /var/lib/apt/lists/*
+#6 0.877 Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]
+#6 1.662 Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]
+#6 1.875 Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]
+#6 2.100 Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]
+#6 2.427 Get:5 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 Packages [1776 kB]
+#6 3.114 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 Packages [274 kB]
+#6 3.377 Get:7 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 Packages [19.0 MB]
+#6 6.056 Get:8 http://ports.ubuntu.com/ubuntu-ports noble/restricted arm64 Packages [113 kB]
+#6 6.059 Get:9 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted arm64 Packages [3325 kB]
+#6 6.510 Get:10 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1823 kB]
+#6 6.741 Get:11 http://ports.ubuntu.com/ubuntu-ports noble-updates/multiverse arm64 Packages [107 kB]
+#6 6.760 Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [2229 kB]
+#6 7.077 Get:13 http://ports.ubuntu.com/ubuntu-ports noble-backports/main arm64 Packages [49.0 kB]
+#6 7.078 Get:14 http://ports.ubuntu.com/ubuntu-ports noble-backports/multiverse arm64 Packages [669 B]
+#6 7.078 Get:15 http://ports.ubuntu.com/ubuntu-ports noble-backports/universe arm64 Packages [36.3 kB]
+#6 7.080 Get:16 http://ports.ubuntu.com/ubuntu-ports noble-security/multiverse arm64 Packages [102 kB]
+#6 7.087 Get:17 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1489 kB]
+#6 7.301 Get:18 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1652 kB]
+#6 7.554 Get:19 http://ports.ubuntu.com/ubuntu-ports noble-security/restricted arm64 Packages [3148 kB]
+#6 8.020 Fetched 35.8 MB in 8s (4555 kB/s)
+#6 8.020 Reading package lists...
+#6 8.648 Reading package lists...
+#6 9.224 Building dependency tree...
+#6 9.411 Reading state information...
+#6 9.677 The following additional packages will be installed:
+#6 9.677   libc-dev-bin libcrypt-dev linux-libc-dev rpcsvc-proto
+#6 9.678 Suggested packages:
+#6 9.678   glibc-doc manpages-dev
+#6 9.678 Recommended packages:
+#6 9.678   manpages manpages-dev libc-devtools
+#6 9.704 The following NEW packages will be installed:
+#6 9.704   libc-dev-bin libc6-dev libcrypt-dev linux-libc-dev rpcsvc-proto
+#6 10.16 0 upgraded, 5 newly installed, 0 to remove and 9 not upgraded.
+#6 10.16 Need to get 3471 kB of archives.
+#6 10.16 After this operation, 18.3 MB of additional disk space will be used.
+#6 10.16 Get:1 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc-dev-bin arm64 2.39-0ubuntu8.9 [19.7 kB]
+#6 10.64 Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 linux-libc-dev arm64 6.8.0-149.149 [1672 kB]
+#6 11.64 Get:3 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libcrypt-dev arm64 1:4.4.36-4build1 [118 kB]
+#6 11.67 Get:4 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 rpcsvc-proto arm64 1.4.2-0ubuntu7 [64.8 kB]
+#6 11.68 Get:5 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libc6-dev arm64 2.39-0ubuntu8.9 [1596 kB]
+#6 12.01 debconf: delaying package configuration, since apt-utils is not installed
+#6 12.04 Fetched 3471 kB in 2s (1606 kB/s)
+#6 12.05 Selecting previously unselected package libc-dev-bin.
+#6 12.05 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 10162 files and directories currently installed.)
+#6 12.08 Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.9_arm64.deb ...
+#6 12.08 Unpacking libc-dev-bin (2.39-0ubuntu8.9) ...
+#6 12.09 Selecting previously unselected package linux-libc-dev:arm64.
+#6 12.09 Preparing to unpack .../linux-libc-dev_6.8.0-149.149_arm64.deb ...
+#6 12.09 Unpacking linux-libc-dev:arm64 (6.8.0-149.149) ...
+#6 12.17 Selecting previously unselected package libcrypt-dev:arm64.
+#6 12.17 Preparing to unpack .../libcrypt-dev_1%3a4.4.36-4build1_arm64.deb ...
+#6 12.17 Unpacking libcrypt-dev:arm64 (1:4.4.36-4build1) ...
+#6 12.19 Selecting previously unselected package rpcsvc-proto.
+#6 12.19 Preparing to unpack .../rpcsvc-proto_1.4.2-0ubuntu7_arm64.deb ...
+#6 12.19 Unpacking rpcsvc-proto (1.4.2-0ubuntu7) ...
+#6 12.20 Selecting previously unselected package libc6-dev:arm64.
+#6 12.20 Preparing to unpack .../libc6-dev_2.39-0ubuntu8.9_arm64.deb ...
+#6 12.20 Unpacking libc6-dev:arm64 (2.39-0ubuntu8.9) ...
+#6 12.26 Setting up linux-libc-dev:arm64 (6.8.0-149.149) ...
+#6 12.26 Setting up rpcsvc-proto (1.4.2-0ubuntu7) ...
+#6 12.26 Setting up libcrypt-dev:arm64 (1:4.4.36-4build1) ...
+#6 12.27 Setting up libc-dev-bin (2.39-0ubuntu8.9) ...
+#6 12.27 Setting up libc6-dev:arm64 (2.39-0ubuntu8.9) ...
+#6 DONE 12.3s
+
+#7 [4/4] WORKDIR /workspace
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 exporting manifest sha256:d599897eac5121faa724e590a8ab575882f89d81f16b1678eba6d7668b129419
+#8 exporting manifest sha256:d599897eac5121faa724e590a8ab575882f89d81f16b1678eba6d7668b129419 done
+#8 exporting config sha256:4618eb5386fbb0bbcb81b554928f27165f245e0228a7c0c3d7792c3206b41f7e done
+#8 exporting attestation manifest sha256:96c97c434ee707af747f28ea51cfc6f1bebc85d92953a0d7d3a8f74c40d8f9da done
+#8 exporting manifest list sha256:865d88b81e9ac32102d8b56fa93c06de0ab4cd5e2df90386eb91674de11c420d done
+#8 naming to docker.io/library/shifttoken-build:lab2 done
+#8 unpacking to docker.io/library/shifttoken-build:lab2 0.1s done
+#8 DONE 0.5s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Костроміна Вікторія Романівна/2026-Fall/SP/Lab01/Work/SP-Labs:/workspace" -w /workspace \
+		--user "501:20" shifttoken-build:lab2 \
+		make -C firmware all
+make: Entering directory '/workspace/firmware'
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IApp -IBoard -IDevices -IInputs -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Os -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/bringup.d" -Wextra -Werror -fstack-usage -Wa,-a,-ad,-alms=build/bringup.lst App/bringup.c -o build/bringup.o
+arm-none-eabi-gcc build/main.o build/stm32c0xx_it.o build/stm32c0xx_hal_msp.o build/syscalls.o build/sysmem.o build/stm32c0xx_hal.o build/stm32c0xx_hal_cortex.o build/stm32c0xx_hal_rcc.o build/stm32c0xx_hal_rcc_ex.o build/stm32c0xx_hal_flash.o build/stm32c0xx_hal_flash_ex.o build/stm32c0xx_hal_gpio.o build/stm32c0xx_hal_dma.o build/stm32c0xx_hal_dma_ex.o build/stm32c0xx_hal_uart.o build/stm32c0xx_hal_uart_ex.o build/system_stm32c0xx.o build/bringup.o build/board.o build/rfid.o build/sd_sector.o build/token_inputs.o build/stm32c0xx_hal_adc.o build/stm32c0xx_hal_adc_ex.o build/stm32c0xx_hal_spi.o build/stm32c0xx_hal_spi_ex.o build/startup_stm32c031xx.o -mcpu=cortex-m0plus -mthumb   -specs=nano.specs -TSTM32C031C6Tx_FLASH.ld  -lc -lm -lnosys  -Wl,-Map=build/firmware.map,--cref -Wl,--gc-sections,--print-memory-usage -o build/firmware.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        4464 B        12 KB     36.33%
+           FLASH:       22924 B        32 KB     69.96%
+arm-none-eabi-size build/firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+  22808	    116	   4356	  27280	   6a90	build/firmware.elf
+arm-none-eabi-objcopy -O ihex build/firmware.elf build/firmware.hex
+arm-none-eabi-objcopy -O binary -S build/firmware.elf build/firmware.bin	
+make: Leaving directory '/workspace/firmware'

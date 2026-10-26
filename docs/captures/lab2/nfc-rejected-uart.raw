@@ -1,0 +1,8 @@
+BOOT product=ShiftToken lab=2 format=1 clock_hz=48000000 uart=115200_8N1
+SELFTEST dev=MFRC522 result=OK version=0x92 spi_hz=375000
+SELFTEST dev=SD result=OK ocr=0xC0FF8000 addressing=BLOCK
+SELFTEST dev=ADC result=OK raw=2050 unit=count vref_mV=3300
+SELFTEST dev=BUTTONS result=READ levels_pressed=0/0 debounce_ms=25
+READY lab=2 mode=bringup commands=status,selftest,sdread,sdwrite,capture,help
+RFID_FAULT t_ms=119 result=PROTOCOL
+JOB t_ms=176 raw=2050 mV=1652 code=3 valid=1

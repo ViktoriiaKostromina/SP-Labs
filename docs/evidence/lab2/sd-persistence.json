@@ -1,0 +1,8 @@
+{
+  "image_bytes": 8388608,
+  "image_sha256": "76acdecf634b2cb3d1a65c61bbd2341fd895c9047a626e3f0cb136ac0a83b810",
+  "sector127_sha256": "6314d1c094b03a65efad3d28faf219b04582a833b24efb6ff89b9a2608a58f10",
+  "sector127_crc32": "12D38871",
+  "all_512_bytes_match_seed92": true,
+  "gzip_sha256": "0dfed092e50bf4592b4d2426a03571a145b70d25459896c66a48dd3f847dc66c"
+}

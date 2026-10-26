@@ -1,0 +1,2 @@
+BUTTON t_ms=351645 name=PAUSE count=1 unit=event
+BUTTON t_ms=351880 name=CLOSE count=1 unit=event

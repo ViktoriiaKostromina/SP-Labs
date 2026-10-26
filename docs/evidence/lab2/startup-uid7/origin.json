@@ -1,0 +1,28 @@
+{
+  "level": "Wokwi VS Code UART",
+  "started_utc": "2026-11-06T17:50:34.474635+00:00",
+  "ended_utc": "2026-11-06T17:51:44.573749+00:00",
+  "host_elapsed_s": 70.09463554199999,
+  "host_elapsed_is_not_MCU_elapsed": true,
+  "port": 4049,
+  "connections": 1,
+  "commands": [],
+  "commands_sent": false,
+  "startup_ready_observed": true,
+  "raw_sha256": "0f690eea851ded86335d622d5a7efdde2bfd14875d5becf4c74296b47b782745",
+  "firmware_elf_sha256": "515ec538b394aacd47e47f1ea01cfe357701956158c63b15d30e59de9c143639",
+  "connection_errors": [],
+  "files_before": {
+    "firmware/build/firmware.elf": "aab91619a32af1f7d2ab57fbf3bce8bd20b9a81fbdc32ddfe24d82de0c6f4d17",
+    "firmware/build/firmware.hex": "903901bfe02f8daa0d2070c1e2c395aefac0aa72ec7df9fa3a1584991f0f6302",
+    "diagram.json": "7ba333af0a385bfdbb822f0a9415d439b43e3ba5bb317397dfa01ddf72169f38",
+    "wokwi.toml": "7ebe382ff67fb8a7565998e901191efa2538580bca7b90ec991bfe4ab5b721e1"
+  },
+  "files_after": {
+    "firmware/build/firmware.elf": "515ec538b394aacd47e47f1ea01cfe357701956158c63b15d30e59de9c143639",
+    "firmware/build/firmware.hex": "1897b044747d04155e2a26c3f8799a2e965db30a923133b04a282ad1469b861a",
+    "diagram.json": "7ba333af0a385bfdbb822f0a9415d439b43e3ba5bb317397dfa01ddf72169f38",
+    "wokwi.toml": "7ebe382ff67fb8a7565998e901191efa2538580bca7b90ec991bfe4ab5b721e1"
+  },
+  "loaded_binary_note": "File hashes alone do not establish what an existing simulator loaded; use BOOT and fresh native start evidence."
+}

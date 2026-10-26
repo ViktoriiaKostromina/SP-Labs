@@ -1,0 +1,1170 @@
+[
+  {
+    "device": "RFID",
+    "start_ns": 206137126100,
+    "end_ns": 206137325550,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206137340550,
+    "end_ns": 206137540000,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206137553250,
+    "end_ns": 206137755150,
+    "mosi": "5480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206137768400,
+    "end_ns": 206137967850,
+    "mosi": "56a9",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206137981100,
+    "end_ns": 206138180550,
+    "mosi": "5801",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206138193800,
+    "end_ns": 206138393250,
+    "mosi": "5af4",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206138406500,
+    "end_ns": 206138605950,
+    "mosi": "2a40",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206138619200,
+    "end_ns": 206138820975,
+    "mosi": "223d",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206138834225,
+    "end_ns": 206139033675,
+    "mosi": "2400",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206139046925,
+    "end_ns": 206139246375,
+    "mosi": "2600",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206139259625,
+    "end_ns": 206139459075,
+    "mosi": "4826",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206139472325,
+    "end_ns": 206139671775,
+    "mosi": "2883",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 206146934425,
+    "end_ns": 206147833300,
+    "mosi": "ff400000000095ffff",
+    "miso": "ffffffffffffffff01",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 206147945150,
+    "end_ns": 206149258425,
+    "mosi": "ff48000001aa87ffffffffffff",
+    "miso": "ffffffffffffffff01000001aa",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 206149374275,
+    "end_ns": 206150273900,
+    "mosi": "ff770000000001ffff",
+    "miso": "ffffffffffffffff01",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 206150385750,
+    "end_ns": 206151285400,
+    "mosi": "ff694000000001ffff",
+    "miso": "ffffffffffffffff00",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 206151395250,
+    "end_ns": 206152712300,
+    "mosi": "ff7a0000000001ffffffffffff",
+    "miso": "ffffffffffffffff00c0ff8000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206180875950,
+    "end_ns": 206181075400,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206181094900,
+    "end_ns": 206181294350,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206181306600,
+    "end_ns": 206181506050,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206181518300,
+    "end_ns": 206181717750,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206181733000,
+    "end_ns": 206181932450,
+    "mosi": "1252",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206181944950,
+    "end_ns": 206182144400,
+    "mosi": "1a07",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206182156150,
+    "end_ns": 206182355425,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206182367925,
+    "end_ns": 206182567200,
+    "mosi": "1a87",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206182582700,
+    "end_ns": 206182784650,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206182799400,
+    "end_ns": 206182998850,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206183013600,
+    "end_ns": 206183213050,
+    "mosi": "9400",
+    "miso": "0002",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206183225800,
+    "end_ns": 206183425250,
+    "mosi": "9800",
+    "miso": "0200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206183442250,
+    "end_ns": 206183641700,
+    "mosi": "9200",
+    "miso": "0004",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206183655200,
+    "end_ns": 206183857050,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206183895050,
+    "end_ns": 206184094500,
+    "mosi": "0200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206184106750,
+    "end_ns": 206184306200,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206184318450,
+    "end_ns": 206184517900,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206184530650,
+    "end_ns": 206184732425,
+    "mosi": "1293",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206184745675,
+    "end_ns": 206184945125,
+    "mosi": "1220",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206184957625,
+    "end_ns": 206185157075,
+    "mosi": "1a00",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206185168825,
+    "end_ns": 206185368100,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206185380600,
+    "end_ns": 206185579875,
+    "mosi": "1a80",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206185595375,
+    "end_ns": 206185797325,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206185812075,
+    "end_ns": 206186011525,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206186026275,
+    "end_ns": 206186225725,
+    "mosi": "9400",
+    "miso": "0005",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206186238475,
+    "end_ns": 206186437925,
+    "mosi": "9800",
+    "miso": "0500",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206186454925,
+    "end_ns": 206186654375,
+    "mosi": "9200",
+    "miso": "0001",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206186667875,
+    "end_ns": 206186869725,
+    "mosi": "9200",
+    "miso": "0203",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206186883225,
+    "end_ns": 206187082675,
+    "mosi": "9200",
+    "miso": "0404",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206187096175,
+    "end_ns": 206187295625,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 206187309125,
+    "end_ns": 206187508575,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207102746050,
+    "end_ns": 207102945500,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207102960500,
+    "end_ns": 207103159950,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207103173200,
+    "end_ns": 207103372650,
+    "mosi": "5480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207103385900,
+    "end_ns": 207103585350,
+    "mosi": "56a9",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207103598600,
+    "end_ns": 207103800375,
+    "mosi": "5801",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207103813625,
+    "end_ns": 207104013075,
+    "mosi": "5af4",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207104026325,
+    "end_ns": 207104225775,
+    "mosi": "2a40",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207104239025,
+    "end_ns": 207104438475,
+    "mosi": "223d",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207104451725,
+    "end_ns": 207104651175,
+    "mosi": "2400",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207104664425,
+    "end_ns": 207104866375,
+    "mosi": "2600",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207104879625,
+    "end_ns": 207105079075,
+    "mosi": "4826",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207105092325,
+    "end_ns": 207105291775,
+    "mosi": "2883",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207133174525,
+    "end_ns": 207133373975,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207133393475,
+    "end_ns": 207133592925,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207133605175,
+    "end_ns": 207133807000,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207133819250,
+    "end_ns": 207134018700,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207134031450,
+    "end_ns": 207134230900,
+    "mosi": "1252",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207134243400,
+    "end_ns": 207134442850,
+    "mosi": "1a07",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207134454600,
+    "end_ns": 207134653875,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207134666375,
+    "end_ns": 207134867900,
+    "mosi": "1a87",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207134883400,
+    "end_ns": 207135082850,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207135097600,
+    "end_ns": 207135297050,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207135311800,
+    "end_ns": 207135511250,
+    "mosi": "9400",
+    "miso": "0002",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207135524000,
+    "end_ns": 207135725875,
+    "mosi": "9800",
+    "miso": "0200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207135742875,
+    "end_ns": 207135942325,
+    "mosi": "9200",
+    "miso": "0004",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207135955825,
+    "end_ns": 207136155275,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207136193275,
+    "end_ns": 207136392725,
+    "mosi": "0200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207136404975,
+    "end_ns": 207136604425,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207136616675,
+    "end_ns": 207136818450,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207136831200,
+    "end_ns": 207137030650,
+    "mosi": "1293",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207137043900,
+    "end_ns": 207137243350,
+    "mosi": "1220",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207137255850,
+    "end_ns": 207137455300,
+    "mosi": "1a00",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207137467050,
+    "end_ns": 207137666325,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207137678825,
+    "end_ns": 207137880600,
+    "mosi": "1a80",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207137896100,
+    "end_ns": 207138095550,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207138110300,
+    "end_ns": 207138309750,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207138324500,
+    "end_ns": 207138523950,
+    "mosi": "9400",
+    "miso": "0005",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207138536700,
+    "end_ns": 207138738550,
+    "mosi": "9800",
+    "miso": "0500",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207138755550,
+    "end_ns": 207138955000,
+    "mosi": "9200",
+    "miso": "0001",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207138968500,
+    "end_ns": 207139167950,
+    "mosi": "9200",
+    "miso": "0203",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207139181450,
+    "end_ns": 207139380900,
+    "mosi": "9200",
+    "miso": "0404",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207139394400,
+    "end_ns": 207139593850,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 207139607350,
+    "end_ns": 207139809125,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208102831900,
+    "end_ns": 208103031350,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208103046350,
+    "end_ns": 208103245800,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208103259050,
+    "end_ns": 208103458500,
+    "mosi": "5480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208103471750,
+    "end_ns": 208103671200,
+    "mosi": "56a9",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208103686950,
+    "end_ns": 208103886400,
+    "mosi": "5801",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208103899650,
+    "end_ns": 208104099100,
+    "mosi": "5af4",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208104112350,
+    "end_ns": 208104311800,
+    "mosi": "2a40",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208104325050,
+    "end_ns": 208104524500,
+    "mosi": "223d",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208104537750,
+    "end_ns": 208104739450,
+    "mosi": "2400",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208104752700,
+    "end_ns": 208104952150,
+    "mosi": "2600",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208104965400,
+    "end_ns": 208105164850,
+    "mosi": "4826",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208105178100,
+    "end_ns": 208105377550,
+    "mosi": "2883",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208133270850,
+    "end_ns": 208133470300,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208133489800,
+    "end_ns": 208133691575,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208133703825,
+    "end_ns": 208133903275,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208133915525,
+    "end_ns": 208134114975,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208134127725,
+    "end_ns": 208134327175,
+    "mosi": "1252",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208134339675,
+    "end_ns": 208134539125,
+    "mosi": "1a07",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208134550875,
+    "end_ns": 208134752650,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208134765150,
+    "end_ns": 208134964425,
+    "mosi": "1a87",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208134979925,
+    "end_ns": 208135179375,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208135194125,
+    "end_ns": 208135393575,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208135408325,
+    "end_ns": 208135607775,
+    "mosi": "9400",
+    "miso": "0002",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208135620525,
+    "end_ns": 208135822375,
+    "mosi": "9800",
+    "miso": "0200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208135839375,
+    "end_ns": 208136038825,
+    "mosi": "9200",
+    "miso": "0004",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208136052325,
+    "end_ns": 208136251775,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208136289775,
+    "end_ns": 208136489225,
+    "mosi": "0200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208136501475,
+    "end_ns": 208136703250,
+    "mosi": "087f",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208136715500,
+    "end_ns": 208136914950,
+    "mosi": "1480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208136927700,
+    "end_ns": 208137127150,
+    "mosi": "1293",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208137140400,
+    "end_ns": 208137339850,
+    "mosi": "1220",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208137352350,
+    "end_ns": 208137551800,
+    "mosi": "1a00",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208137563550,
+    "end_ns": 208137765175,
+    "mosi": "020c",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208137777675,
+    "end_ns": 208137976950,
+    "mosi": "1a80",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208137992450,
+    "end_ns": 208138191900,
+    "mosi": "8800",
+    "miso": "0030",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208138206650,
+    "end_ns": 208138406100,
+    "mosi": "8c00",
+    "miso": "3000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208138420850,
+    "end_ns": 208138620300,
+    "mosi": "9400",
+    "miso": "0005",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208138633050,
+    "end_ns": 208138835000,
+    "mosi": "9800",
+    "miso": "0500",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208138852000,
+    "end_ns": 208139051450,
+    "mosi": "9200",
+    "miso": "0001",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208139064950,
+    "end_ns": 208139264400,
+    "mosi": "9200",
+    "miso": "0203",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208139277900,
+    "end_ns": 208139477350,
+    "mosi": "9200",
+    "miso": "0404",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208139490850,
+    "end_ns": 208139692700,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 208139706200,
+    "end_ns": 208139905650,
+    "mosi": "9200",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209102812050,
+    "end_ns": 209103011500,
+    "mosi": "ee00",
+    "miso": "0092",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209103026500,
+    "end_ns": 209103225950,
+    "mosi": "0200",
+    "miso": "9200",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209103239200,
+    "end_ns": 209103438650,
+    "mosi": "5480",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209103451900,
+    "end_ns": 209103651350,
+    "mosi": "56a9",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209103666875,
+    "end_ns": 209103866325,
+    "mosi": "5801",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209103879575,
+    "end_ns": 209104079025,
+    "mosi": "5af4",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209104092275,
+    "end_ns": 209104291725,
+    "mosi": "2a40",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209104304975,
+    "end_ns": 209104504425,
+    "mosi": "223d",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209104517675,
+    "end_ns": 209104719625,
+    "mosi": "2400",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209104732875,
+    "end_ns": 209104932325,
+    "mosi": "2600",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209104945575,
+    "end_ns": 209105145025,
+    "mosi": "4826",
+    "miso": "0000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 209105158275,
+    "end_ns": 209105357725,
+    "mosi": "2883",
+    "miso": "0000",
+    "trailing_bits": 0
+  }
+]

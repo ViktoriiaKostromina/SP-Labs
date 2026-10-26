@@ -1,0 +1,64 @@
+docker build -t shifttoken-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 355B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 0.0s done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     gcc python3 gcovr     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:89b0f7efdc5641d0629b8ff878d25a9ae24a4acc504b0c330712ca6a612f0cd7 done
+#7 exporting config sha256:61c2694c22eed46d76cfa9b8bb5e724b321c62532d84f0650bad86b1e6735dad done
+#7 exporting attestation manifest sha256:f279d617db5739db9470ff477b29408d20e5b8b43c1f99f1a65196257a323e77 0.0s done
+#7 exporting manifest list sha256:e93db976d415b1357570ae08d9031a72ae6988360a8978fc5ed4790cc2c87d93 done
+#7 naming to docker.io/library/shifttoken-build:lab2 done
+#7 unpacking to docker.io/library/shifttoken-build:lab2 done
+#7 DONE 0.1s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Костроміна Вікторія Романівна/2026-Fall/SP/Lab01/Work/SP-Labs:/workspace" -w /workspace --user "501:20" shifttoken-build:lab2 python3 tools/check_layers.py
+PASS layer dependency checks: 9 portable source/header files
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Костроміна Вікторія Романівна/2026-Fall/SP/Lab01/Work/SP-Labs:/workspace" -w /workspace --user "501:20" shifttoken-build:lab2 make -f tests/Makefile all
+mkdir -p build/host build/coverage
+cc -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -Ifirmware/Devices -Ifirmware/Inputs -Ifirmware/App tests/test_devices.c firmware/Devices/rfid.c firmware/Devices/sd_sector.c firmware/Inputs/token_inputs.c -o build/host/test_devices
+tests/test_devices.c:1:10: fatal error: assert.h: No such file or directory
+    1 | #include <assert.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+In file included from firmware/Devices/st_io.h:3,
+                 from firmware/Devices/rfid.h:3,
+                 from firmware/Devices/rfid.c:1:
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:9:16: fatal error: stdint.h: No such file or directory
+    9 | # include_next <stdint.h>
+      |                ^~~~~~~~~~
+compilation terminated.
+In file included from firmware/Devices/st_io.h:3,
+                 from firmware/Devices/sd_sector.h:3,
+                 from firmware/Devices/sd_sector.c:1:
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:9:16: fatal error: stdint.h: No such file or directory
+    9 | # include_next <stdint.h>
+      |                ^~~~~~~~~~
+compilation terminated.
+In file included from firmware/Inputs/token_inputs.h:3,
+                 from firmware/Inputs/token_inputs.c:1:
+/usr/lib/gcc/aarch64-linux-gnu/13/include/stdint.h:9:16: fatal error: stdint.h: No such file or directory
+    9 | # include_next <stdint.h>
+      |                ^~~~~~~~~~
+compilation terminated.
+make: *** [tests/Makefile:9: all] Error 1
+make: *** [test] Error 2

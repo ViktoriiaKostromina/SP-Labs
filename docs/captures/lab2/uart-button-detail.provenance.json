@@ -1,0 +1,8 @@
+{
+  "source": "docs/captures/lab2/gpio-buttons-adc.vcd",
+  "source_sha256": "dda203f751f9ecc1362a5e8090b4844cb22293ceea2df5a282f7f1569df167bf",
+  "start_ns": 351639300000,
+  "end_ns": 351640300000,
+  "derived_vcd_sha256": "7576c7ceab723a5ba607d8a775a01d3fd65e8dcae47f774569c528cad6c0a67a",
+  "operation": "select time interval, insert actual initial pin states, subtract common time origin; no synthetic transitions"
+}

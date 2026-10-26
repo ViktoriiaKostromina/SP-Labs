@@ -1,0 +1,318 @@
+JOB t_ms=289083 raw=1972 mV=1589 code=2 valid=1
+RFID_RETRY t_ms=289098 result=ID version=00
+STATE t_ms=289104 adc_raw=1908 adc_mV=1538 job=2 valid=1 adc_n=28325 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=289663 raw=2080 mV=1676 code=3 valid=1
+JOB t_ms=289763 raw=2011 mV=1621 code=2 valid=1
+JOB t_ms=289863 raw=2083 mV=1679 code=3 valid=1
+RFID_RETRY t_ms=290098 result=ID version=00
+STATE t_ms=290104 adc_raw=2331 adc_mV=1878 job=3 valid=1 adc_n=28423 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=290163 raw=1989 mV=1603 code=2 valid=1
+JOB t_ms=290533 raw=2120 mV=1708 code=3 valid=1
+JOB t_ms=290663 raw=2014 mV=1623 code=2 valid=1
+JOB t_ms=290723 raw=2080 mV=1676 code=3 valid=1
+JOB t_ms=290783 raw=1994 mV=1607 code=2 valid=1
+JOB t_ms=290873 raw=2116 mV=1705 code=3 valid=1
+JOB t_ms=291013 raw=1965 mV=1584 code=2 valid=1
+RFID_RETRY t_ms=291098 result=ID version=00
+STATE t_ms=291104 adc_raw=1694 adc_mV=1365 job=2 valid=1 adc_n=28521 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=291213 raw=2094 mV=1687 code=3 valid=1
+JOB t_ms=291773 raw=2001 mV=1613 code=2 valid=1
+JOB t_ms=291893 raw=2096 mV=1689 code=3 valid=1
+JOB t_ms=291943 raw=1983 mV=1598 code=2 valid=1
+RFID_RETRY t_ms=292098 result=ID version=00
+STATE t_ms=292104 adc_raw=1962 adc_mV=1581 job=2 valid=1 adc_n=28619 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=292173 raw=2089 mV=1683 code=3 valid=1
+JOB t_ms=292203 raw=1978 mV=1594 code=2 valid=1
+JOB t_ms=292303 raw=2080 mV=1676 code=3 valid=1
+JOB t_ms=292363 raw=2009 mV=1619 code=2 valid=1
+JOB t_ms=292503 raw=2093 mV=1687 code=3 valid=1
+JOB t_ms=292943 raw=2001 mV=1613 code=2 valid=1
+JOB t_ms=293023 raw=2107 mV=1698 code=3 valid=1
+JOB t_ms=293063 raw=2007 mV=1617 code=2 valid=1
+RFID_RETRY t_ms=293098 result=ID version=00
+STATE t_ms=293104 adc_raw=1980 adc_mV=1596 job=2 valid=1 adc_n=28717 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=293263 raw=2123 mV=1711 code=3 valid=1
+JOB t_ms=293513 raw=1970 mV=1588 code=2 valid=1
+RFID_RETRY t_ms=294098 result=ID version=00
+STATE t_ms=294104 adc_raw=1534 adc_mV=1236 job=2 valid=1 adc_n=28815 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=294173 raw=2104 mV=1696 code=3 valid=1
+JOB t_ms=294663 raw=1987 mV=1601 code=2 valid=1
+JOB t_ms=294813 raw=2113 mV=1703 code=3 valid=1
+JOB t_ms=294893 raw=2005 mV=1616 code=2 valid=1
+JOB t_ms=295053 raw=2100 mV=1692 code=3 valid=1
+RFID_RETRY t_ms=295098 result=ID version=00
+STATE t_ms=295104 adc_raw=2183 adc_mV=1759 job=3 valid=1 adc_n=28913 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=295153 raw=1929 mV=1555 code=2 valid=1
+JOB t_ms=295363 raw=2087 mV=1682 code=3 valid=1
+JOB t_ms=295433 raw=2013 mV=1622 code=2 valid=1
+JOB t_ms=295473 raw=2092 mV=1686 code=3 valid=1
+JOB t_ms=295553 raw=2012 mV=1621 code=2 valid=1
+JOB t_ms=295643 raw=2107 mV=1698 code=3 valid=1
+JOB t_ms=295743 raw=1940 mV=1563 code=2 valid=1
+JOB t_ms=295893 raw=2116 mV=1705 code=3 valid=1
+JOB t_ms=296003 raw=1940 mV=1563 code=2 valid=1
+RFID_RETRY t_ms=296098 result=ID version=00
+STATE t_ms=296104 adc_raw=1812 adc_mV=1460 job=2 valid=1 adc_n=29011 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=296823 raw=2158 mV=1739 code=3 valid=1
+RFID_RETRY t_ms=297098 result=ID version=00
+STATE t_ms=297104 adc_raw=2125 adc_mV=1712 job=3 valid=1 adc_n=29109 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=297143 raw=1985 mV=1600 code=2 valid=1
+JOB t_ms=297243 raw=2112 mV=1702 code=3 valid=1
+JOB t_ms=297693 raw=2011 mV=1621 code=2 valid=1
+RFID_RETRY t_ms=298098 result=ID version=00
+STATE t_ms=298104 adc_raw=1678 adc_mV=1352 job=2 valid=1 adc_n=29207 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=298243 raw=2093 mV=1687 code=3 valid=1
+JOB t_ms=298673 raw=1970 mV=1588 code=2 valid=1
+RFID_RETRY t_ms=299098 result=ID version=00
+STATE t_ms=299104 adc_raw=1850 adc_mV=1491 job=2 valid=1 adc_n=29305 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=299143 raw=2089 mV=1683 code=3 valid=1
+JOB t_ms=299473 raw=2005 mV=1616 code=2 valid=1
+JOB t_ms=299773 raw=2104 mV=1696 code=3 valid=1
+JOB t_ms=299833 raw=2005 mV=1616 code=2 valid=1
+RFID_RETRY t_ms=300098 result=ID version=00
+STATE t_ms=300104 adc_raw=1913 adc_mV=1542 job=2 valid=1 adc_n=29403 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=300143 raw=2134 mV=1720 code=3 valid=1
+JOB t_ms=300553 raw=2003 mV=1614 code=2 valid=1
+JOB t_ms=300873 raw=2127 mV=1714 code=3 valid=1
+RFID_RETRY t_ms=301098 result=ID version=00
+STATE t_ms=301104 adc_raw=2256 adc_mV=1818 job=3 valid=1 adc_n=29501 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=301543 raw=1953 mV=1574 code=2 valid=1
+JOB t_ms=301853 raw=2087 mV=1682 code=3 valid=1
+JOB t_ms=301903 raw=1978 mV=1594 code=2 valid=1
+RFID_RETRY t_ms=302098 result=ID version=00
+STATE t_ms=302104 adc_raw=1813 adc_mV=1461 job=2 valid=1 adc_n=29599 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=302893 raw=2121 mV=1709 code=3 valid=1
+JOB t_ms=303073 raw=1993 mV=1606 code=2 valid=1
+RFID_RETRY t_ms=303098 result=ID version=00
+STATE t_ms=303104 adc_raw=1829 adc_mV=1474 job=2 valid=1 adc_n=29697 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=303223 raw=2090 mV=1684 code=3 valid=1
+JOB t_ms=303263 raw=2008 mV=1618 code=2 valid=1
+JOB t_ms=304033 raw=2080 mV=1676 code=3 valid=1
+RFID_RETRY t_ms=304098 result=ID version=00
+STATE t_ms=304104 adc_raw=2393 adc_mV=1928 job=3 valid=1 adc_n=29795 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=304473 raw=1989 mV=1603 code=2 valid=1
+JOB t_ms=304533 raw=2153 mV=1735 code=3 valid=1
+JOB t_ms=304753 raw=2014 mV=1623 code=2 valid=1
+JOB t_ms=304993 raw=2106 mV=1697 code=3 valid=1
+RFID_RETRY t_ms=305098 result=ID version=00
+STATE t_ms=305104 adc_raw=2194 adc_mV=1768 job=3 valid=1 adc_n=29893 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=305373 raw=1996 mV=1608 code=2 valid=1
+JOB t_ms=305433 raw=2125 mV=1712 code=3 valid=1
+JOB t_ms=305603 raw=2015 mV=1624 code=2 valid=1
+JOB t_ms=305813 raw=2094 mV=1687 code=3 valid=1
+JOB t_ms=305893 raw=1996 mV=1608 code=2 valid=1
+RFID_RETRY t_ms=306098 result=ID version=00
+STATE t_ms=306104 adc_raw=1916 adc_mV=1544 job=2 valid=1 adc_n=29991 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=306273 raw=2080 mV=1676 code=3 valid=1
+JOB t_ms=306423 raw=1980 mV=1596 code=2 valid=1
+JOB t_ms=306503 raw=2101 mV=1693 code=3 valid=1
+JOB t_ms=306623 raw=2004 mV=1615 code=2 valid=1
+JOB t_ms=306773 raw=2112 mV=1702 code=3 valid=1
+JOB t_ms=307043 raw=1962 mV=1581 code=2 valid=1
+RFID_RETRY t_ms=307098 result=ID version=00
+STATE t_ms=307104 adc_raw=1726 adc_mV=1391 job=2 valid=1 adc_n=30089 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=307283 raw=2131 mV=1717 code=3 valid=1
+JOB t_ms=307533 raw=1995 mV=1608 code=2 valid=1
+JOB t_ms=307893 raw=2110 mV=1700 code=3 valid=1
+RFID_RETRY t_ms=308098 result=ID version=00
+STATE t_ms=308104 adc_raw=2224 adc_mV=1792 job=3 valid=1 adc_n=30187 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=308323 raw=1962 mV=1581 code=2 valid=1
+JOB t_ms=308703 raw=2083 mV=1679 code=3 valid=1
+JOB t_ms=308823 raw=1944 mV=1567 code=2 valid=1
+JOB t_ms=308913 raw=2153 mV=1735 code=3 valid=1
+RFID_RETRY t_ms=309098 result=ID version=00
+STATE t_ms=309104 adc_raw=2253 adc_mV=1816 job=3 valid=1 adc_n=30285 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=309253 raw=2013 mV=1622 code=2 valid=1
+JOB t_ms=309813 raw=2120 mV=1708 code=3 valid=1
+RFID_RETRY t_ms=310098 result=ID version=00
+STATE t_ms=310104 adc_raw=2266 adc_mV=1826 job=3 valid=1 adc_n=30383 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=310543 raw=2001 mV=1613 code=2 valid=1
+JOB t_ms=310633 raw=2092 mV=1686 code=3 valid=1
+JOB t_ms=310873 raw=1992 mV=1605 code=2 valid=1
+JOB t_ms=310953 raw=2109 mV=1700 code=3 valid=1
+RFID_RETRY t_ms=311098 result=ID version=00
+STATE t_ms=311104 adc_raw=2020 adc_mV=1628 job=3 valid=1 adc_n=30481 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=311123 raw=1971 mV=1588 code=2 valid=1
+JOB t_ms=311223 raw=2083 mV=1679 code=3 valid=1
+JOB t_ms=311423 raw=1967 mV=1585 code=2 valid=1
+JOB t_ms=311723 raw=2116 mV=1705 code=3 valid=1
+JOB t_ms=311793 raw=1991 mV=1604 code=2 valid=1
+JOB t_ms=311893 raw=2081 mV=1677 code=3 valid=1
+RFID_RETRY t_ms=312098 result=ID version=00
+STATE t_ms=312104 adc_raw=2227 adc_mV=1795 job=3 valid=1 adc_n=30579 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=312233 raw=2002 mV=1613 code=2 valid=1
+JOB t_ms=312363 raw=2107 mV=1698 code=3 valid=1
+JOB t_ms=312633 raw=1977 mV=1593 code=2 valid=1
+JOB t_ms=312883 raw=2094 mV=1687 code=3 valid=1
+RFID_RETRY t_ms=313098 result=ID version=00
+STATE t_ms=313104 adc_raw=2094 adc_mV=1687 job=3 valid=1 adc_n=30677 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=313353 raw=1989 mV=1603 code=2 valid=1
+JOB t_ms=313603 raw=2110 mV=1700 code=3 valid=1
+JOB t_ms=313823 raw=2007 mV=1617 code=2 valid=1
+RFID_RETRY t_ms=314098 result=ID version=00
+STATE t_ms=314104 adc_raw=1811 adc_mV=1459 job=2 valid=1 adc_n=30775 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=314153 raw=2120 mV=1708 code=3 valid=1
+JOB t_ms=314803 raw=2000 mV=1612 code=2 valid=1
+JOB t_ms=315083 raw=2154 mV=1736 code=3 valid=1
+RFID_RETRY t_ms=315098 result=ID version=00
+STATE t_ms=315104 adc_raw=2211 adc_mV=1782 job=3 valid=1 adc_n=30873 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=315203 raw=2002 mV=1613 code=2 valid=1
+JOB t_ms=315323 raw=2091 mV=1685 code=3 valid=1
+JOB t_ms=315653 raw=1956 mV=1576 code=2 valid=1
+JOB t_ms=316003 raw=2093 mV=1687 code=3 valid=1
+RFID_RETRY t_ms=316098 result=ID version=00
+STATE t_ms=316104 adc_raw=2266 adc_mV=1826 job=3 valid=1 adc_n=30971 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=316363 raw=2002 mV=1613 code=2 valid=1
+JOB t_ms=316443 raw=2110 mV=1700 code=3 valid=1
+JOB t_ms=316823 raw=1955 mV=1575 code=2 valid=1
+JOB t_ms=316903 raw=2100 mV=1692 code=3 valid=1
+JOB t_ms=316993 raw=2003 mV=1614 code=2 valid=1
+RFID_RETRY t_ms=317098 result=ID version=00
+STATE t_ms=317104 adc_raw=2057 adc_mV=1658 job=2 valid=1 adc_n=31069 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=317133 raw=2083 mV=1679 code=3 valid=1
+JOB t_ms=317183 raw=1995 mV=1608 code=2 valid=1
+JOB t_ms=317313 raw=2134 mV=1720 code=3 valid=1
+JOB t_ms=317523 raw=1980 mV=1596 code=2 valid=1
+JOB t_ms=318083 raw=2123 mV=1711 code=3 valid=1
+RFID_RETRY t_ms=318098 result=ID version=00
+STATE t_ms=318104 adc_raw=2185 adc_mV=1761 job=3 valid=1 adc_n=31167 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=319063 raw=1999 mV=1611 code=2 valid=1
+RFID_RETRY t_ms=319098 result=ID version=00
+STATE t_ms=319104 adc_raw=2000 adc_mV=1612 job=2 valid=1 adc_n=31265 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=319143 raw=2117 mV=1706 code=3 valid=1
+JOB t_ms=319253 raw=1995 mV=1608 code=2 valid=1
+JOB t_ms=319343 raw=2099 mV=1692 code=3 valid=1
+JOB t_ms=319723 raw=1989 mV=1603 code=2 valid=1
+JOB t_ms=319853 raw=2096 mV=1689 code=3 valid=1
+RFID_RETRY t_ms=320098 result=ID version=00
+STATE t_ms=320104 adc_raw=2322 adc_mV=1871 job=3 valid=1 adc_n=31363 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=320413 raw=1989 mV=1603 code=2 valid=1
+JOB t_ms=320763 raw=2093 mV=1687 code=3 valid=1
+JOB t_ms=320813 raw=2014 mV=1623 code=2 valid=1
+JOB t_ms=320933 raw=2128 mV=1715 code=3 valid=1
+RFID_RETRY t_ms=321098 result=ID version=00
+STATE t_ms=321104 adc_raw=2474 adc_mV=1994 job=3 valid=1 adc_n=31461 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=321943 raw=2012 mV=1621 code=2 valid=1
+JOB t_ms=322063 raw=2173 mV=1751 code=3 valid=1
+RFID_RETRY t_ms=322098 result=ID version=00
+STATE t_ms=322104 adc_raw=2402 adc_mV=1936 job=3 valid=1 adc_n=31559 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=322773 raw=1985 mV=1600 code=2 valid=1
+JOB t_ms=322843 raw=2091 mV=1685 code=3 valid=1
+JOB t_ms=322893 raw=1978 mV=1594 code=2 valid=1
+JOB t_ms=323003 raw=2164 mV=1744 code=3 valid=1
+RFID_RETRY t_ms=323098 result=ID version=00
+STATE t_ms=323104 adc_raw=2024 adc_mV=1631 job=3 valid=1 adc_n=31657 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=323123 raw=2013 mV=1622 code=2 valid=1
+JOB t_ms=323563 raw=2115 mV=1704 code=3 valid=1
+JOB t_ms=323803 raw=2008 mV=1618 code=2 valid=1
+JOB t_ms=324083 raw=2108 mV=1699 code=3 valid=1
+RFID_RETRY t_ms=324098 result=ID version=00
+STATE t_ms=324104 adc_raw=2132 adc_mV=1718 job=3 valid=1 adc_n=31755 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=324183 raw=1971 mV=1588 code=2 valid=1
+JOB t_ms=324323 raw=2109 mV=1700 code=3 valid=1
+JOB t_ms=324673 raw=2014 mV=1623 code=2 valid=1
+JOB t_ms=324753 raw=2081 mV=1677 code=3 valid=1
+JOB t_ms=324923 raw=2010 mV=1620 code=2 valid=1
+JOB t_ms=325023 raw=2099 mV=1692 code=3 valid=1
+RFID_RETRY t_ms=325098 result=ID version=00
+STATE t_ms=325104 adc_raw=2146 adc_mV=1729 job=3 valid=1 adc_n=31853 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=325173 raw=2007 mV=1617 code=2 valid=1
+JOB t_ms=325343 raw=2092 mV=1686 code=3 valid=1
+JOB t_ms=325603 raw=1983 mV=1598 code=2 valid=1
+JOB t_ms=325683 raw=2082 mV=1678 code=3 valid=1
+JOB t_ms=325763 raw=2009 mV=1619 code=2 valid=1
+RFID_RETRY t_ms=326098 result=ID version=00
+STATE t_ms=326104 adc_raw=1683 adc_mV=1356 job=2 valid=1 adc_n=31951 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=326483 raw=2082 mV=1678 code=3 valid=1
+JOB t_ms=326633 raw=1972 mV=1589 code=2 valid=1
+JOB t_ms=326773 raw=2083 mV=1679 code=3 valid=1
+JOB t_ms=326893 raw=2002 mV=1613 code=2 valid=1
+RFID_RETRY t_ms=327098 result=ID version=00
+STATE t_ms=327104 adc_raw=1608 adc_mV=1296 job=2 valid=1 adc_n=32049 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=327813 raw=2144 mV=1728 code=3 valid=1
+JOB t_ms=327933 raw=2002 mV=1613 code=2 valid=1
+RFID_RETRY t_ms=328098 result=ID version=00
+STATE t_ms=328104 adc_raw=1760 adc_mV=1418 job=2 valid=1 adc_n=32147 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=328303 raw=2113 mV=1703 code=3 valid=1
+JOB t_ms=328383 raw=2010 mV=1620 code=2 valid=1
+JOB t_ms=328473 raw=2091 mV=1685 code=3 valid=1
+JOB t_ms=328823 raw=1959 mV=1579 code=2 valid=1
+RFID_RETRY t_ms=329098 result=ID version=00
+STATE t_ms=329104 adc_raw=1690 adc_mV=1362 job=2 valid=1 adc_n=32245 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=329213 raw=2108 mV=1699 code=3 valid=1
+JOB t_ms=329903 raw=1975 mV=1592 code=2 valid=1
+JOB t_ms=329983 raw=2091 mV=1685 code=3 valid=1
+JOB t_ms=330033 raw=1992 mV=1605 code=2 valid=1
+RFID_RETRY t_ms=330098 result=ID version=00
+STATE t_ms=330104 adc_raw=1913 adc_mV=1542 job=2 valid=1 adc_n=32343 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=330233 raw=2159 mV=1740 code=3 valid=1
+JOB t_ms=330563 raw=1999 mV=1611 code=2 valid=1
+JOB t_ms=330673 raw=2103 mV=1695 code=3 valid=1
+JOB t_ms=330903 raw=2015 mV=1624 code=2 valid=1
+RFID_RETRY t_ms=331098 result=ID version=00
+STATE t_ms=331104 adc_raw=1983 adc_mV=1598 job=2 valid=1 adc_n=32441 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=331233 raw=2143 mV=1727 code=3 valid=1
+JOB t_ms=331643 raw=1996 mV=1608 code=2 valid=1
+JOB t_ms=331723 raw=2100 mV=1692 code=3 valid=1
+JOB t_ms=331853 raw=1983 mV=1598 code=2 valid=1
+RFID_RETRY t_ms=332098 result=ID version=00
+STATE t_ms=332104 adc_raw=1688 adc_mV=1360 job=2 valid=1 adc_n=32539 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=332153 raw=2104 mV=1696 code=3 valid=1
+JOB t_ms=332403 raw=2012 mV=1621 code=2 valid=1
+JOB t_ms=332443 raw=2100 mV=1692 code=3 valid=1
+JOB t_ms=332723 raw=1940 mV=1563 code=2 valid=1
+JOB t_ms=333053 raw=2094 mV=1687 code=3 valid=1
+RFID_RETRY t_ms=333098 result=ID version=00
+STATE t_ms=333104 adc_raw=2110 adc_mV=1700 job=3 valid=1 adc_n=32637 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=333183 raw=1995 mV=1608 code=2 valid=1
+JOB t_ms=333483 raw=2104 mV=1696 code=3 valid=1
+JOB t_ms=333553 raw=1999 mV=1611 code=2 valid=1
+JOB t_ms=333893 raw=2111 mV=1701 code=3 valid=1
+RFID_RETRY t_ms=334098 result=ID version=00
+STATE t_ms=334104 adc_raw=2307 adc_mV=1859 job=3 valid=1 adc_n=32735 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=334483 raw=2010 mV=1620 code=2 valid=1
+JOB t_ms=334743 raw=2087 mV=1682 code=3 valid=1
+RFID_RETRY t_ms=335098 result=ID version=00
+STATE t_ms=335104 adc_raw=2478 adc_mV=1997 job=3 valid=1 adc_n=32833 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=335353 raw=1976 mV=1592 code=2 valid=1
+JOB t_ms=335503 raw=2090 mV=1684 code=3 valid=1
+JOB t_ms=335603 raw=1982 mV=1597 code=2 valid=1
+JOB t_ms=335903 raw=2097 mV=1690 code=3 valid=1
+RFID_RETRY t_ms=336098 result=ID version=00
+STATE t_ms=336104 adc_raw=2037 adc_mV=1642 job=3 valid=1 adc_n=32931 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=336173 raw=2006 mV=1617 code=2 valid=1
+JOB t_ms=336263 raw=2104 mV=1696 code=3 valid=1
+JOB t_ms=336333 raw=1986 mV=1600 code=2 valid=1
+JOB t_ms=336543 raw=2106 mV=1697 code=3 valid=1
+JOB t_ms=336833 raw=1995 mV=1608 code=2 valid=1
+JOB t_ms=337023 raw=2191 mV=1766 code=3 valid=1
+RFID_RETRY t_ms=337098 result=ID version=00
+STATE t_ms=337104 adc_raw=2522 adc_mV=2032 job=3 valid=1 adc_n=33029 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=337603 raw=1974 mV=1591 code=2 valid=1
+JOB t_ms=337773 raw=2093 mV=1687 code=3 valid=1
+JOB t_ms=338043 raw=2014 mV=1623 code=2 valid=1
+RFID_RETRY t_ms=338098 result=ID version=00
+STATE t_ms=338104 adc_raw=1920 adc_mV=1547 job=2 valid=1 adc_n=33127 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=338383 raw=2086 mV=1681 code=3 valid=1
+JOB t_ms=338733 raw=1987 mV=1601 code=2 valid=1
+JOB t_ms=338833 raw=2098 mV=1691 code=3 valid=1
+JOB t_ms=338953 raw=2014 mV=1623 code=2 valid=1
+RFID_RETRY t_ms=339098 result=ID version=00
+STATE t_ms=339104 adc_raw=1927 adc_mV=1553 job=2 valid=1 adc_n=33225 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=340013 raw=2086 mV=1681 code=3 valid=1
+RFID_RETRY t_ms=340098 result=ID version=00
+STATE t_ms=340104 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=33323 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=340133 raw=1961 mV=1580 code=2 valid=1
+JOB t_ms=340183 raw=2131 mV=1717 code=3 valid=1
+JOB t_ms=340243 raw=2015 mV=1624 code=2 valid=1
+JOB t_ms=341073 raw=2081 mV=1677 code=3 valid=1
+RFID_RETRY t_ms=341098 result=ID version=00
+STATE t_ms=341104 adc_raw=2158 adc_mV=1739 job=3 valid=1 adc_n=33421 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=341513 raw=2014 mV=1623 code=2 valid=1
+JOB t_ms=342033 raw=2123 mV=1711 code=3 valid=1
+RFID_RETRY t_ms=342098 result=ID version=00
+STATE t_ms=342104 adc_raw=2402 adc_mV=1936 job=3 valid=1 adc_n=33519 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0
+JOB t_ms=342633 raw=1965 mV=1584 code=2 valid=1
+JOB t_ms=343073 raw=2107 mV=1698 code=3 valid=1
+RFID_RETRY t_ms=343098 result=ID version=00
+STATE t_ms=343104 adc_raw=2221 adc_mV=1790 job=3 valid=1 adc_n=33617 buttons=0/0 cards=0 no_card=0 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0

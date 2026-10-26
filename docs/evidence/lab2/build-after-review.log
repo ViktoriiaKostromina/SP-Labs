@@ -1,0 +1,48 @@
+docker build -t shifttoken-build:lab2 docker
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 355B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#4 DONE 0.0s
+
+#5 [2/3] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     gcc python3 gcovr     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/3] WORKDIR /workspace
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:89b0f7efdc5641d0629b8ff878d25a9ae24a4acc504b0c330712ca6a612f0cd7 done
+#7 exporting config sha256:61c2694c22eed46d76cfa9b8bb5e724b321c62532d84f0650bad86b1e6735dad done
+#7 exporting attestation manifest sha256:57d12df4cdcfaba7ac92bfd2b1d350957240a9ee6354e8efb4956f9068bcda96 done
+#7 exporting manifest list sha256:8bb1d937633efc4bc980bbafda858443bdc205a03c27865cad73caea3f5f5ec7 done
+#7 naming to docker.io/library/shifttoken-build:lab2 done
+#7 unpacking to docker.io/library/shifttoken-build:lab2 done
+#7 DONE 0.0s
+docker run --rm -v "/Users/pliffdax/Projects/university/Study/People/Костроміна Вікторія Романівна/2026-Fall/SP/Lab01/Work/SP-Labs:/workspace" -w /workspace \
+		--user "501:20" shifttoken-build:lab2 \
+		make -C firmware all
+make: Entering directory '/workspace/firmware'
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IApp -IBoard -IDevices -IInputs -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Os -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/rfid.d" -Wextra -Werror -fstack-usage -Wa,-a,-ad,-alms=build/rfid.lst Devices/rfid.c -o build/rfid.o
+arm-none-eabi-gcc build/main.o build/stm32c0xx_it.o build/stm32c0xx_hal_msp.o build/syscalls.o build/sysmem.o build/stm32c0xx_hal.o build/stm32c0xx_hal_cortex.o build/stm32c0xx_hal_rcc.o build/stm32c0xx_hal_rcc_ex.o build/stm32c0xx_hal_flash.o build/stm32c0xx_hal_flash_ex.o build/stm32c0xx_hal_gpio.o build/stm32c0xx_hal_dma.o build/stm32c0xx_hal_dma_ex.o build/stm32c0xx_hal_uart.o build/stm32c0xx_hal_uart_ex.o build/system_stm32c0xx.o build/bringup.o build/board.o build/rfid.o build/sd_sector.o build/token_inputs.o build/stm32c0xx_hal_adc.o build/stm32c0xx_hal_adc_ex.o build/stm32c0xx_hal_spi.o build/stm32c0xx_hal_spi_ex.o build/startup_stm32c031xx.o -mcpu=cortex-m0plus -mthumb   -specs=nano.specs -TSTM32C031C6Tx_FLASH.ld  -lc -lm -lnosys  -Wl,-Map=build/firmware.map,--cref -Wl,--gc-sections,--print-memory-usage -o build/firmware.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        4456 B        12 KB     36.26%
+           FLASH:       22724 B        32 KB     69.35%
+arm-none-eabi-size build/firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+  22608	    116	   4348	  27072	   69c0	build/firmware.elf
+arm-none-eabi-objcopy -O ihex build/firmware.elf build/firmware.hex
+arm-none-eabi-objcopy -O binary -S build/firmware.elf build/firmware.bin	
+make: Leaving directory '/workspace/firmware'

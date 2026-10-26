@@ -1,0 +1,20 @@
+BOOT product=ShiftToken lab=2 format=1 clock_hz=48000000 uart=115200_8N1
+SELFTEST dev=MFRC522 result=OK version=0x92 spi_hz=375000
+SELFTEST dev=SD result=OK ocr=0xC0FF8000 addressing=BLOCK
+SELFTEST dev=ADC result=OK raw=2050 unit=count vref_mV=3300
+SELFTEST dev=BUTTONS result=READ levels_pressed=0/0 debounce_ms=25
+READY lab=2 mode=bringup commands=status,selftest,sdread,sdwrite,capture,help
+JOB t_ms=176 raw=2050 mV=1652 code=3 valid=1
+CAPTURE result=ARMED max_ms=10000
+STATE t_ms=343108 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=33617 buttons=0/0 cards=0 no_card=6861 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=344107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=33715 buttons=0/0 cards=0 no_card=6881 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=345107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=33813 buttons=0/0 cards=0 no_card=6901 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=346107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=33911 buttons=0/0 cards=0 no_card=6921 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=347108 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34009 buttons=0/0 cards=0 no_card=6941 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=348107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34107 buttons=0/0 cards=0 no_card=6961 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=349107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34205 buttons=0/0 cards=0 no_card=6981 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=350107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34303 buttons=0/0 cards=0 no_card=7001 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=351107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34401 buttons=0/0 cards=0 no_card=7021 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+BUTTON t_ms=351645 name=PAUSE count=1 unit=event
+BUTTON t_ms=351880 name=CLOSE count=1 unit=event
+STATE t_ms=352107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=34499 buttons=1/1 cards=0 no_card=7041 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0

@@ -1,0 +1,54 @@
+CAPTURE result=ARMED max_ms=10000
+SELFTEST dev=MFRC522 result=OK version=0x92 spi_hz=375000
+SELFTEST dev=SD result=OK ocr=0xC0FF8000 addressing=BLOCK
+SELFTEST dev=ADC result=OK raw=2050 unit=count vref_mV=3300
+SELFTEST dev=BUTTONS result=READ levels_pressed=0/0 debounce_ms=25
+READY lab=2 mode=bringup commands=status,selftest,sdread,sdwrite,capture,help
+RFID_FAULT t_ms=244038 result=LENGTH
+RFID_RETRY t_ms=244108 result=OK version=92
+STATE t_ms=244113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=23906 buttons=0/0 cards=0 no_card=0 rfid_errors=246 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=244139 result=LENGTH
+RFID_RETRY t_ms=245108 result=OK version=92
+STATE t_ms=245113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24004 buttons=0/0 cards=0 no_card=0 rfid_errors=247 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=245139 result=LENGTH
+RFID_RETRY t_ms=246108 result=OK version=92
+STATE t_ms=246113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24102 buttons=0/0 cards=0 no_card=0 rfid_errors=248 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=246139 result=LENGTH
+CAPTURE result=DONE
+RFID_RETRY t_ms=247108 result=OK version=92
+STATE t_ms=247113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24200 buttons=0/0 cards=0 no_card=0 rfid_errors=249 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=247139 result=LENGTH
+RFID_RETRY t_ms=248108 result=OK version=92
+STATE t_ms=248113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24298 buttons=0/0 cards=0 no_card=0 rfid_errors=250 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=248139 result=LENGTH
+RFID_RETRY t_ms=249108 result=OK version=92
+STATE t_ms=249113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24396 buttons=0/0 cards=0 no_card=0 rfid_errors=251 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=249139 result=LENGTH
+RFID_RETRY t_ms=250108 result=OK version=92
+STATE t_ms=250113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24494 buttons=0/0 cards=0 no_card=0 rfid_errors=252 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=250139 result=LENGTH
+RFID_RETRY t_ms=251108 result=OK version=92
+STATE t_ms=251113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24592 buttons=0/0 cards=0 no_card=0 rfid_errors=253 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=251139 result=LENGTH
+RFID_RETRY t_ms=252108 result=OK version=92
+STATE t_ms=252113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24690 buttons=0/0 cards=0 no_card=0 rfid_errors=254 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=252139 result=LENGTH
+RFID_RETRY t_ms=253108 result=OK version=92
+STATE t_ms=253113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24788 buttons=0/0 cards=0 no_card=0 rfid_errors=255 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=253139 result=LENGTH
+RFID_RETRY t_ms=254108 result=OK version=92
+STATE t_ms=254113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24886 buttons=0/0 cards=0 no_card=0 rfid_errors=256 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=254139 result=LENGTH
+RFID_RETRY t_ms=255108 result=OK version=92
+STATE t_ms=255113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=24984 buttons=0/0 cards=0 no_card=0 rfid_errors=257 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=255139 result=LENGTH
+RFID_RETRY t_ms=256108 result=OK version=92
+STATE t_ms=256113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=25082 buttons=0/0 cards=0 no_card=0 rfid_errors=258 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=256139 result=LENGTH
+RFID_RETRY t_ms=257108 result=OK version=92
+STATE t_ms=257113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=25180 buttons=0/0 cards=0 no_card=0 rfid_errors=259 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=257139 result=LENGTH
+RFID_RETRY t_ms=258108 result=OK version=92
+STATE t_ms=258113 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=25278 buttons=0/0 cards=0 no_card=0 rfid_errors=260 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+RFID_FAULT t_ms=258139 result=LENGTH
+R

@@ -1,0 +1,8 @@
+{
+  "source": "docs/captures/lab2/spi-rfid-nfc-rejected.vcd",
+  "source_sha256": "22bf13c9b6599c43bd5a583e5a30dc30a615e3817bd69959e821c912b8b8c01e",
+  "start_ns": 50000000,
+  "end_ns": 1100000000,
+  "derived_vcd_sha256": "f5f502844b55927440ec7fc603c8c4f77720e1f4df1aada36b56c71220956e18",
+  "operation": "select time interval, insert actual initial pin states, subtract common time origin; no synthetic transitions"
+}

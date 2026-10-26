@@ -1,0 +1,45 @@
+STATE t_ms=486107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=47628 buttons=1/1 cards=0 no_card=9721 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=487107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=47726 buttons=1/1 cards=0 no_card=9741 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=488107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=47824 buttons=1/1 cards=0 no_card=9761 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=489107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=47922 buttons=1/1 cards=0 no_card=9781 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=490107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48020 buttons=1/1 cards=0 no_card=9801 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=491107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48118 buttons=1/1 cards=0 no_card=9821 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=492107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48216 buttons=1/1 cards=0 no_card=9841 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=493107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48314 buttons=1/1 cards=0 no_card=9861 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=494107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48412 buttons=1/1 cards=0 no_card=9881 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=495107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48510 buttons=1/1 cards=0 no_card=9901 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=496107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48608 buttons=1/1 cards=0 no_card=9921 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=497107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48706 buttons=1/1 cards=0 no_card=9941 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=498107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48804 buttons=1/1 cards=0 no_card=9961 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=499107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=48902 buttons=1/1 cards=0 no_card=9981 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=500107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=49000 buttons=1/1 cards=0 no_card=10001 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+JOB t_ms=500700 raw=1794 mV=1446 code=2 valid=1
+JOB t_ms=500740 raw=769 mV=620 code=1 valid=1
+STATE t_ms=501107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49098 buttons=1/1 cards=0 no_card=10021 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=502107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49196 buttons=1/1 cards=0 no_card=10041 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=503108 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49294 buttons=1/1 cards=0 no_card=10061 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=504107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49392 buttons=1/1 cards=0 no_card=10081 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=505107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49490 buttons=1/1 cards=0 no_card=10101 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=506108 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49588 buttons=1/1 cards=0 no_card=10121 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=507107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49686 buttons=1/1 cards=0 no_card=10141 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=508107 adc_raw=0 adc_mV=0 job=1 valid=1 adc_n=49784 buttons=1/1 cards=0 no_card=10161 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+JOB t_ms=508570 raw=1536 mV=1238 code=2 valid=1
+JOB t_ms=508590 raw=2559 mV=2062 code=3 valid=1
+JOB t_ms=508610 raw=3583 mV=2887 code=4 valid=1
+STATE t_ms=509107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=49882 buttons=1/1 cards=0 no_card=10181 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=510107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=49980 buttons=1/1 cards=0 no_card=10201 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=511107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50078 buttons=1/1 cards=0 no_card=10221 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=512107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50176 buttons=1/1 cards=0 no_card=10241 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=513107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50274 buttons=1/1 cards=0 no_card=10261 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=514107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50372 buttons=1/1 cards=0 no_card=10281 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=515107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50470 buttons=1/1 cards=0 no_card=10301 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=516107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50568 buttons=1/1 cards=0 no_card=10321 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=517107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50666 buttons=1/1 cards=0 no_card=10341 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=518107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50764 buttons=1/1 cards=0 no_card=10361 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=519108 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50862 buttons=1/1 cards=0 no_card=10381 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=520108 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=50960 buttons=1/1 cards=0 no_card=10401 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=521107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=51058 buttons=1/1 cards=0 no_card=10421 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=522107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=51156 buttons=1/1 cards=0 no_card=10441 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=523107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=51254 buttons=1/1 cards=0 no_card=10461 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=524107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=51352 buttons=1/1 cards=0 no_card=10481 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=525107 adc_raw=4095 adc_mV=3300 job=4 valid=1 adc_n=51450 buttons=1/1 cards=0 no_card=10501 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0

@@ -1,0 +1,49 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 468B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 1.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 done
+#4 DONE 0.0s
+
+#5 [2/4] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     gcc python3 gcovr     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/4] RUN apt-get update && apt-get install -y --no-install-recommends libc6-dev     && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [4/4] WORKDIR /workspace
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d599897eac5121faa724e590a8ab575882f89d81f16b1678eba6d7668b129419 done
+#8 exporting config sha256:4618eb5386fbb0bbcb81b554928f27165f245e0228a7c0c3d7792c3206b41f7e done
+#8 exporting attestation manifest sha256:958a5d336708926cf51ecf81d4a26801b72c3c943688ba8986b9ff0d42c4f3fa done
+#8 exporting manifest list sha256:5a51d968b373c54965facfbe2f374cfc5d2cc797c88f7063b18b30d4d9270618 done
+#8 naming to docker.io/library/shifttoken-build:lab2 done
+#8 unpacking to docker.io/library/shifttoken-build:lab2 done
+#8 DONE 0.0s
+Preserving existing sim/demo.img
+SHA256 76acdecf634b2cb3d1a65c61bbd2341fd895c9047a626e3f0cb136ac0a83b810
+make: Entering directory '/workspace/firmware'
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IApp -IBoard -IDevices -IInputs -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Os -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/board.d" -Wextra -Werror -fstack-usage -Wa,-a,-ad,-alms=build/board.lst Board/board.c -o build/board.o
+arm-none-eabi-gcc build/main.o build/stm32c0xx_it.o build/stm32c0xx_hal_msp.o build/syscalls.o build/sysmem.o build/stm32c0xx_hal.o build/stm32c0xx_hal_cortex.o build/stm32c0xx_hal_rcc.o build/stm32c0xx_hal_rcc_ex.o build/stm32c0xx_hal_flash.o build/stm32c0xx_hal_flash_ex.o build/stm32c0xx_hal_gpio.o build/stm32c0xx_hal_dma.o build/stm32c0xx_hal_dma_ex.o build/stm32c0xx_hal_uart.o build/stm32c0xx_hal_uart_ex.o build/system_stm32c0xx.o build/bringup.o build/board.o build/rfid.o build/sd_sector.o build/token_inputs.o build/stm32c0xx_hal_adc.o build/stm32c0xx_hal_adc_ex.o build/stm32c0xx_hal_spi.o build/stm32c0xx_hal_spi_ex.o build/startup_stm32c031xx.o -mcpu=cortex-m0plus -mthumb   -specs=nano.specs -TSTM32C031C6Tx_FLASH.ld  -lc -lm -lnosys  -Wl,-Map=build/firmware.map,--cref -Wl,--gc-sections,--print-memory-usage -o build/firmware.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        4464 B        12 KB     36.33%
+           FLASH:       22948 B        32 KB     70.03%
+arm-none-eabi-size build/firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+  22832	    116	   4356	  27304	   6aa8	build/firmware.elf
+arm-none-eabi-objcopy -O ihex build/firmware.elf build/firmware.hex
+arm-none-eabi-objcopy -O binary -S build/firmware.elf build/firmware.bin	
+make: Leaving directory '/workspace/firmware'

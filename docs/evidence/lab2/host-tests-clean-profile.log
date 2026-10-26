@@ -1,0 +1,54 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 468B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/ubuntu:24.04
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 0.0s done
+#4 DONE 0.0s
+
+#5 [2/4] RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     gcc python3 gcovr     ca-certificates     && rm -rf /var/lib/apt/lists/*
+#5 CACHED
+
+#6 [3/4] RUN apt-get update && apt-get install -y --no-install-recommends libc6-dev     && rm -rf /var/lib/apt/lists/*
+#6 CACHED
+
+#7 [4/4] WORKDIR /workspace
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d599897eac5121faa724e590a8ab575882f89d81f16b1678eba6d7668b129419 done
+#8 exporting config sha256:4618eb5386fbb0bbcb81b554928f27165f245e0228a7c0c3d7792c3206b41f7e done
+#8 exporting attestation manifest sha256:3ac9b31c63d3252857bf55e12882b1c8f360116b3d7eb4e026a441d2102b1563 0.0s done
+#8 exporting manifest list sha256:34e025600bd1716b4ef7b6ae7e3de89f95e0e9eba7e4f4a6828beb651e21d8c7 done
+#8 naming to docker.io/library/shifttoken-build:lab2 done
+#8 unpacking to docker.io/library/shifttoken-build:lab2 done
+#8 DONE 0.1s
+PASS layer dependency checks: 9 portable source/header files
+mkdir -p build/host build/coverage
+rm -f build/host/*.gcda
+cc -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -Ifirmware/Devices -Ifirmware/Inputs -Ifirmware/App tests/test_devices.c firmware/Devices/rfid.c firmware/Devices/sd_sector.c firmware/Inputs/token_inputs.c -o build/host/test_devices
+./build/host/test_devices
+PASS RFID: identification, framing, UID4/7, BCC/CRC, timeout, absent card, transaction failures
+PASS SD: real command contract, SDSC/SDHC addressing, block roundtrip, bounds, timeout, rejection, CS cleanup
+PASS inputs: ADC counts/mV, warmup, hysteresis, invalidation, debounce, tick wrap, token removal/fault gate
+PASS checks=610
+cc -std=c11 -O0 -g --coverage -Wall -Wextra -Werror -Ifirmware/Devices -Ifirmware/Inputs -Ifirmware/App tests/test_bringup.c firmware/Devices/rfid.c firmware/Devices/sd_sector.c firmware/Inputs/token_inputs.c firmware/App/bringup.c -o build/host/test_bringup
+./build/host/test_bringup
+PASS bringup: simultaneous inputs, self-test, UART parser, SD read-back, fault/retry, invalid ADC, no session implementation
+PASS fake_uart_log_bytes=3472
+gcovr -r . --filter 'firmware/(App|Devices|Inputs)/' --json-summary build/coverage/summary.json --xml build/coverage/cobertura.xml --html-details build/coverage/index.html --print-summary --fail-under-line 80 --fail-under-branch 65
+(INFO) Reading coverage data...
+(INFO) Writing coverage report...
+lines: 99.3% (286 out of 288)
+functions: 100.0% (30 out of 30)
+branches: 90.6% (348 out of 384)

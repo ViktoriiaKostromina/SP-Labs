@@ -1,0 +1,6 @@
+Wokwi CLI v0.29.1 (0aa185144b92)
+⚠ [invalid-attribute] Unknown attribute "value" for part "rf_fault" (type: wokwi-slide-switch) (rf_fault)
+⚠ [invalid-attribute] Unknown attribute "channelNames" for part "logic" (type: wokwi-logic-analyzer) (logic)
+ℹ [unsupported-part] Part "rfid" uses undocumented type "board-mfrc522". This part may change or be removed in future versions. (rfid)
+
+Found 2 warning(s), 1 info

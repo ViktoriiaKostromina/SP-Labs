@@ -1,0 +1,90 @@
+[
+  {
+    "device": "RFID",
+    "start_ns": 74388470000,
+    "end_ns": 74388604925,
+    "mosi": "ee00",
+    "miso": "ffff",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74395846300,
+    "end_ns": 74396365375,
+    "mosi": "ff400000000095ffff",
+    "miso": "ffffffffffffffff01",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74396476325,
+    "end_ns": 74397396800,
+    "mosi": "ff48000001aa87ffffffffffff",
+    "miso": "ffffffffffffffff01000001aa",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74397511800,
+    "end_ns": 74398031625,
+    "mosi": "ff770000000001ffff",
+    "miso": "ffffffffffffffff01",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74398140225,
+    "end_ns": 74398662475,
+    "mosi": "ff694000000001ffff",
+    "miso": "ffffffffffffffff00",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74398769075,
+    "end_ns": 74399695950,
+    "mosi": "ff7a0000000001ffffffffffff",
+    "miso": "ffffffffffffffff00c0ff8000",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74440829650,
+    "end_ns": 74495217975,
+    "mosi": "ff580000007f01fffffffe5c6d7e8fa0b1c2d3e4f5061728394a5b6d7e8fa0b1c2d3e4f5061728394a5b6c7e8fa0b1c2d3e4f5061728394a5b6c7d8fa0b1c2d3e4f5061728394a5b6c7d8ea0b1c2d3e4f5061728394a5b6c7d8e9fb1c2d3e4f5061728394a5b6c7d8e9fb0c2d3e4f5061728394a5b6c7d8e9fb0c1d3e4f5061728394a5b6c7d8e9fb0c1d2e4f5061728394a5b6c7d8e9fb0c1d2e3f5061728394a5b6c7d8e9fb0c1d2e3f4061728394a5b6c7d8e9fb0c1d2e3f4051728394a5b6c7d8e9fb0c1d2e3f4051628394a5b6c7d8e9fb0c1d2e3f4051627394a5b6c7d8e9fb0c1d2e3f4051627384a5b6c7d8e9fb0c1d2e3f405162738495b6c7d8e9fb0c1d2e3f405162738495a6c7d8e9fb0c1d2e3f405162738495a6b7d8e9fb0c1d2e3f405162738495a6b7c8e9fb0c1d2e3f405162738495a6b7c8d9fb0c1d2e3f405162738495a6b7c8d9eb0c1d2e3f405162738495a6b7c8d9eafc1d2e3f405162738495a6b7c8d9eafc0d2e3f405162738495a6b7c8d9eafc0d1e3f405162738495a6b7c8d9eafc0d1e2f405162738495a6b7c8d9eafc0d1e2f305162738495a6b7c8d9eafc0d1e2f304162738495a6b7c8d9eafc0d1e2f304152738495a6b7c8d9eafc0d1e2f304152638495a6b7c8d9eafc0d1e2f304152637495a6b7c8d9eafc0d1e2f304152637485a6b7c8d9eafc0d1e2f30415263748596b7c8d9eafc0d1e2f30415263748596affffffffffffffffffffffffffffffffffffffffff",
+    "miso": "ffffffffffffffff00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff050000000000000000000000000000000000ff",
+    "trailing_bits": 0
+  },
+  {
+    "device": "SD",
+    "start_ns": 74495330575,
+    "end_ns": 74547687125,
+    "mosi": "ff510000007f01ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "miso": "ffffffffffffffff00fffffffffe5c6d7e8fa0b1c2d3e4f5061728394a5b6d7e8fa0b1c2d3e4f5061728394a5b6c7e8fa0b1c2d3e4f5061728394a5b6c7d8fa0b1c2d3e4f5061728394a5b6c7d8ea0b1c2d3e4f5061728394a5b6c7d8e9fb1c2d3e4f5061728394a5b6c7d8e9fb0c2d3e4f5061728394a5b6c7d8e9fb0c1d3e4f5061728394a5b6c7d8e9fb0c1d2e4f5061728394a5b6c7d8e9fb0c1d2e3f5061728394a5b6c7d8e9fb0c1d2e3f4061728394a5b6c7d8e9fb0c1d2e3f4051728394a5b6c7d8e9fb0c1d2e3f4051628394a5b6c7d8e9fb0c1d2e3f4051627394a5b6c7d8e9fb0c1d2e3f4051627384a5b6c7d8e9fb0c1d2e3f405162738495b6c7d8e9fb0c1d2e3f405162738495a6c7d8e9fb0c1d2e3f405162738495a6b7d8e9fb0c1d2e3f405162738495a6b7c8e9fb0c1d2e3f405162738495a6b7c8d9fb0c1d2e3f405162738495a6b7c8d9eb0c1d2e3f405162738495a6b7c8d9eafc1d2e3f405162738495a6b7c8d9eafc0d2e3f405162738495a6b7c8d9eafc0d1e3f405162738495a6b7c8d9eafc0d1e2f405162738495a6b7c8d9eafc0d1e2f305162738495a6b7c8d9eafc0d1e2f304162738495a6b7c8d9eafc0d1e2f304152738495a6b7c8d9eafc0d1e2f304152638495a6b7c8d9eafc0d1e2f304152637495a6b7c8d9eafc0d1e2f304152637485a6b7c8d9eafc0d1e2f30415263748596b7c8d9eafc0d1e2f30415263748596af0f0",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 75100481650,
+    "end_ns": 75100616575,
+    "mosi": "ee00",
+    "miso": "ffff",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 76100467575,
+    "end_ns": 76100602500,
+    "mosi": "ee00",
+    "miso": "ffff",
+    "trailing_bits": 0
+  },
+  {
+    "device": "RFID",
+    "start_ns": 77100443000,
+    "end_ns": 77100577925,
+    "mosi": "ee00",
+    "miso": "ffff",
+    "trailing_bits": 0
+  }
+]

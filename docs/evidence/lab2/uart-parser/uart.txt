@@ -1,0 +1,10 @@
+STATE t_ms=410108 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40183 buttons=1/1 cards=0 no_card=8201 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=0 sd_ready=1 rfid_ready=1 sd_errors=0
+ERROR reason=line_too_long
+STATE t_ms=410134 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40183 buttons=1/1 cards=0 no_card=8201 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+HELP status selftest sdread sdwrite <0..255> capture <1..10000_ms>; lab2 has no session commands
+STATE t_ms=411108 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40278 buttons=1/1 cards=0 no_card=8221 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=412107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40376 buttons=1/1 cards=0 no_card=8241 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=413107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40474 buttons=1/1 cards=0 no_card=8261 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=414107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40572 buttons=1/1 cards=0 no_card=8281 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=415107 adc_raw=2050 adc_mV=1652 job=3 valid=1 adc_n=40670 buttons=1/1 cards=0 no_card=8301 rfid_errors=0 adc_errors=0 rx_lost=0 cmd_errors=0 dropped=1 sd_ready=1 rfid_ready=1 sd_errors=0
+STATE t_ms=4
