@@ -1,0 +1,3 @@
+# Preserve measured bytes across clones; hashes refer to these exact files.
+docs/evidence/** -text
+docs/captures/** -text
